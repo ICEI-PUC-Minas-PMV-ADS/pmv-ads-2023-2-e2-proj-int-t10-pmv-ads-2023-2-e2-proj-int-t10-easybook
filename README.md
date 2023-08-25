@@ -7,7 +7,8 @@
 
 `SEMESTRE 2/2023`
 
-O foco principal deste projeto é criar um sistema que ajude startups de tecnologia a agendar e gerenciar espaços para desenvolvimento e testes.
+### Sistema de Reserva e Gestão de Ambientes de Desenvolvimento e Teste para Startups Tecnológicas.
+- O foco principal deste projeto é criar um sistema que ajude startups de tecnologia a agendar e gerenciar espaços para desenvolvimento e testes.
 
 ## Integrantes
 
