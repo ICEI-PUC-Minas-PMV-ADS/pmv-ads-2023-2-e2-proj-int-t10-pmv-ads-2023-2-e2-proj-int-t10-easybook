@@ -26,12 +26,33 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 As “histórias de usuários” refletem as necessidades reais das equipes ágeis de hoje, e demonstram como a tecnologia pode ser uma aliada poderosa na busca por eficiência, confiabilidade e sucesso no mercado. Aqui estão algumas delas:
 
-
+`Reserva Rápida de Ambientes de Desenvolvimento`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Desenvolvedor  | Reservar rapidamente um ambiente de desenvolvimento     | Iniciar meu trabalho de desenvolvimento sem demora         |
 |Testador de qualidade (QA)       | Verificar a disponibilidade dos ambientes de teste                 | Garantir que posso testar as novas funcionalidades o mais rápido possível |
 |Scrum Master (SM)  | Ter visibilidade das reservas de ambientes     | Garantir que o desenvolvimento e os testes estejam alinhados com o planejamento         |
+
+`Testes de Integração Contínua`
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Desenvolvedor  | configurar testes de integração contínua para minhas funcionalidades     | garantir que as mudanças não causem problemas no sistema geral         |
+|Testador de qualidade (QA)       | ter visibilidade dos testes de integração contínua                 | verificar a estabilidade das funcionalidades e identificar falhas rapidamente |
+|Scrum Master (SM)  | garantir que os testes de integração estejam configurados para todas as funcionalidades     | Gter confiança na qualidade do software entregue         |
+
+`Alocação Eficiente de Recursos`
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Desenvolvedor  | alocar recursos de desenvolvimento e teste de forma eficiente     | maximizar a utilização dos recursos disponíveis         |
+|Testador de qualidade (QA)       | verificar a alocação de recursos para testes                 | garantir que haja recursos suficientes para testar as funcionalidades adequadamente |
+|Scrum Master (SM)  | acompanhar a alocação de recursos para o desenvolvimento e testes    | assegurar um equilíbrio adequado entre as tarefas e evitar sobrecarga         |
+
+`Agendamento de Ambientes de Teste de Carga`
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Desenvolvedor  | agendar ambientes de teste de carga para simular condições de alto tráfego     | avaliar o desempenho do aplicativo sob carga pesada         |
+|Testador de qualidade (QA)       | verificar o agendamento dos ambientes de teste de carga                 | garantir que os testes sejam conduzidos nas condições planejadas |
+|Scrum Master (SM)  | acompanhar os resultados dos testes de carga     | garantir que o aplicativo esteja pronto para suportar situações de tráfego intenso         |
 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
