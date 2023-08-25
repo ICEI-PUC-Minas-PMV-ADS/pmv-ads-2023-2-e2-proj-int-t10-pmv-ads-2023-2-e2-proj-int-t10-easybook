@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# ![Logo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/imagens/logo-easy.PNG)
 
-`CURSO`
+`TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Eixo 2 - Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`SEMESTRE 2/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O foco principal deste projeto é criar um sistema que ajude startups de tecnologia a agendar e gerenciar espaços para desenvolvimento e testes.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Nogueira Martins Cardoso
+* Caio César Santos Rezende
+* Gabriel Matozinho Pereira
+* Gabriel Victor Miranda de Oliveira
+* Raimundo Sales de Melo Neto
+* Renata Gonzaga Barbosa
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
