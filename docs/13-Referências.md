@@ -1,7 +1,3 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+CB Insights.The Top 12 Reasons Startups Fail.2021 Disponível em: <https://www.cbinsights.com/research/report/startup-failure-reasons-top/> acesso em: 24 Ago 2023. 
