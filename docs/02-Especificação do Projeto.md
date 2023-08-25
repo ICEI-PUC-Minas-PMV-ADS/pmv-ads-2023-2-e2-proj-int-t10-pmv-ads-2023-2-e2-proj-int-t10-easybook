@@ -38,7 +38,7 @@ As “histórias de usuários” refletem as necessidades reais das equipes áge
 |--------------------|------------------------------------|----------------------------------------|
 |Desenvolvedor  | configurar testes de integração contínua para minhas funcionalidades     | garantir que as mudanças não causem problemas no sistema geral         |
 |Testador de qualidade (QA)       | ter visibilidade dos testes de integração contínua                 | verificar a estabilidade das funcionalidades e identificar falhas rapidamente |
-|Scrum Master (SM)  | garantir que os testes de integração estejam configurados para todas as funcionalidades     | Gter confiança na qualidade do software entregue         |
+|Scrum Master (SM)  | garantir que os testes de integração estejam configurados para todas as funcionalidades     | ter confiança na qualidade do software entregue         |
 
 `Alocação Eficiente de Recursos`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
