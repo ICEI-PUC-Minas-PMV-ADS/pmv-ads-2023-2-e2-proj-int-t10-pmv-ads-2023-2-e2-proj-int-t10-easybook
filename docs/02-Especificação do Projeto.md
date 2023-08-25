@@ -29,8 +29,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Desenvolvedor  | Reservar rapidamente um ambiente de desenvolvimento     | Iniciar meu trabalho de desenvolvimento sem demora         |
-|Testador de qualidade (QA)       | verificar a disponibilidade dos ambientes de teste                 | garantir que posso testar as novas funcionalidades o mais rápido possível |
-|Scrum Master (SM)  | ter visibilidade das reservas de ambientes     | garantir que o desenvolvimento e os testes estejam alinhados com o planejamento         |
+|Testador de qualidade (QA)       | Verificar a disponibilidade dos ambientes de teste                 | Garantir que posso testar as novas funcionalidades o mais rápido possível |
+|Scrum Master (SM)  | Ter visibilidade das reservas de ambientes     | Garantir que o desenvolvimento e os testes estejam alinhados com o planejamento         |
 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
