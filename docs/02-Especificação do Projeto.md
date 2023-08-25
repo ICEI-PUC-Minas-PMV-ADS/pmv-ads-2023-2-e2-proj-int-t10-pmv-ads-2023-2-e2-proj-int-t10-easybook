@@ -24,7 +24,8 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+As “histórias de usuários” refletem as necessidades reais das equipes ágeis de hoje, e demonstram como a tecnologia pode ser uma aliada poderosa na busca por eficiência, confiabilidade e sucesso no mercado. Aqui estão algumas delas:
+
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
