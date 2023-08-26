@@ -8,6 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+As personas criadas durante o processo de compreensão do problema estão apresentadas nas figuras abaixo. 
+(ESTE É UM EXEMPLO DE COMO ADICIONAR TABELA E IMAGEM NO GITHUB PARA PERSONA)
+|Cristina Fernanda      | Informações:                       |                                        |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 65 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● WhatsApp   |
+|**Motivações:**<br>● Sempre desejou de ter um cachorro;<br>● Ter um cachorro para acompanhá-la em seu cotidiano. |**Frustrações:**<br>● Se sente sozinha; <br>● Filhos moram em outro Estado. |**Hobbies, História:**<br>● Viúva; <br>● Mora sozinha; <br>● Viaja a lazer com frequência. |
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
