@@ -10,34 +10,20 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |Julia Gualtieri     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 24 <br> **Ocupação:** Pós-Graduanda em Designer Gráfico, Designer Gráfico Junior em uma startup. |**Aplicativos:** <br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
+| ![persona1](docs/img/Persona_1.png) | **Idade:** 24 <br> **Ocupação:** Pós-Graduanda em Designer Gráfico, Designer Gráfico Junior em uma startup. |**Aplicativos:** <br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
 |**Motivações:** <br>●	Inspirar outras jovens mulheres a perseguir seus sonhos <br>● Busca oportunidades de aprimorar suas habilidades. |**Frustrações:** <br>●	Nunca ter saído do País; <br>● 	Problemas em casa com os pais. |**Hobbies, História:** <br>● Dançar <br>● Ler <br>● Ama experimentar novas culinárias |
 
 |Gilberto Souza    | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 26 <br> **Ocupação:** Desenvolvedor Pleno, trabalha em uma startup em Belo Horizonte.  |**Aplicativos:** <br>● Discord <br>● Instagram <br>● Reddit <br>● LinkedIn   |
+| ![persona2](docs/img/Persona_2.png) | **Idade:** 26 <br> **Ocupação:** Desenvolvedor Pleno, trabalha em uma startup em Belo Horizonte.  |**Aplicativos:** <br>● Discord <br>● Instagram <br>● Reddit <br>● LinkedIn   |
 |**Motivações:** <br>●	Progressão de carreira;<br>● Sair com os amigos para aliviar o estresse do trabalho <br>● Ter uma vida saudável. |**Frustrações:** <br>●	Sobrecarga no trabalho <br>● 	Falta de tempo para hobbies<br>● Isolamento social. |**Hobbies, História:** <br>● Games <br>● Esportes <br>● Sair com amigos |
 
 |Igor Alves da Silva   | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 37 <br> **Ocupação:** Professor de Análise e Desenvolvimento de Sistemas, CEO de uma startup.  |**Aplicativos:** <br>● Instagrem <br>●Twitter <br>● LinkedIn <br>● Facebook <br>● GitHub <br>Git   |
+| ![persona3](docs/img/Persona_3.png) | **Idade:** 37 <br> **Ocupação:** Professor de Análise e Desenvolvimento de Sistemas, CEO de uma startup.  |**Aplicativos:** <br>● Instagrem <br>●Twitter <br>● LinkedIn <br>● Facebook <br>● GitHub <br>Git   |
 |**Motivações:** <br>●	Família <br>● Gerar oportunidades <br>● Guiar as pessoas até seus sonhos  <br>● Criar metodologias de alta performance |**Frustrações:** <br>● Não poder oferecer mais oportunidades <br>● 	Perca de oportunidades por falta de investimentos |**Hobbies, História:** <br>● Ler <br>● Estudar idiomas <br>● Fotografia |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
-
-As “histórias de usuários” refletem as necessidades reais das equipes ágeis de hoje, e demonstram como a tecnologia pode ser uma aliada poderosa na busca por eficiência, confiabilidade e sucesso no mercado. Aqui estão algumas delas:
 
 `Reserva Rápida de Ambientes de Desenvolvimento`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
@@ -52,17 +38,6 @@ As “histórias de usuários” refletem as necessidades reais das equipes áge
 |Julia Gualtieri | Conciliar melhor a gestão da produção do projeto.     | Concluir as demandas dentro do prazo.         |
 |Gilberto Souza       | Maior efetividade das ferramentas usadas para o desenvolvimento de sistemas. | Usarmos os meios que estão dentro do orçamento da Startup, e muitas vezes é o básico. |
 |Igor Alves da Silva  | Não haver escassez de recursos durante o desenvolvimento do projeto.    | Quanto maior os investimentos, melhor será a qualidade final do produto.     |
-
-
-(RETIRAR APÓS PRONTO)
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
