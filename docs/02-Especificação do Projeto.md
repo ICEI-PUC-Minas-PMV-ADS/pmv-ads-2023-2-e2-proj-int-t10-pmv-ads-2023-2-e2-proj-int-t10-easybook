@@ -2,20 +2,26 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários – membros de startups - em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-As personas criadas durante o processo de compreensão do problema estão apresentadas nas figuras abaixo. 
-(ESTE É UM EXEMPLO DE COMO ADICIONAR TABELA E IMAGEM NO GITHUB PARA PERSONA)
-|Cristina Fernanda      | Informações:                       |                                        |
-|--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 65 <br> **Ocupação:** Servidora pública aposentada. |**Aplicativos:**<br>● Facebook  <br>● Instagram<br>● WhatsApp   |
-|**Motivações:**<br>● Sempre desejou de ter um cachorro;<br>● Ter um cachorro para acompanhá-la em seu cotidiano. |**Frustrações:**<br>● Se sente sozinha; <br>● Filhos moram em outro Estado. |**Hobbies, História:**<br>● Viúva; <br>● Mora sozinha; <br>● Viaja a lazer com frequência. |
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|Julia Gualtieri     | Informações:                          |                                      |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 24 <br> **Ocupação:** Pós-Graduanda em Designer Gráfico, Designer Gráfico Junior em uma startup. |**Aplicativos:**<br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
+|**Motivações:**<br>●	Inspirar outras jovens mulheres a perseguir seus sonhos;<br>● Busca oportunidades de aprimorar suas habilidades. |**Frustrações:**<br>●	Nunca ter saído do País; <br>● 	Problemas em casa com os pais. |**Hobbies, História:**<br>● Dançar; <br>● Ler; <br>● Ama experimentar novas culinárias. |
+
+|Gilberto Souza    | Informações:                          |                                      |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 26 <br> **Ocupação:** Desenvolvedor Pleno, trabalha em uma startup em Belo Horizonte.  |**Aplicativos:**<br>● Discord; <br>● Instagram <br>● Reddit <br>● LinkedIn   |
+|**Motivações:**<br>●	Progressão de carreira;<br>● Sair com os amigos para aliviar o estresse do trabalho;<br>● Ter uma vida saudável. |**Frustrações:**<br>●	Sobrecarga no trabalho; <br>● 	Falta de tempo para hobbies;<br>● Isolamento social. |**Hobbies, História:**<br>● Games; <br>● Esportes; <br>● Sair com amigos. |
+
+|Igor Alves da Silva   | Informações:                          |                                      |
+|--------------------|----------------------------------|--------------------------------------|
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 37 <br> **Ocupação:**Professor de ADS, CEO de uma startup.  |**Aplicativos:**<br>● Instagrem; <br>●Twitter <br>● LinkedIn; <br>● Facebook; <br>● GitHub; <br>Git.   |
+|**Motivações:**<br>●	Família;<br>● Gerar oportunidades;<br>● Guiar as pessoas até seus sonhos; <br>● Criar metodologias de alta performance. |**Frustrações:**<br>●Não poder oferecer mais oportunidades; <br>● 	Perca de oportunidades por falra de investimentos. |**Hobbies, História:**<br>● Ler; <br>● Estudar idiomas; <br>● Fotografia. |
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -36,32 +42,19 @@ As “histórias de usuários” refletem as necessidades reais das equipes áge
 `Reserva Rápida de Ambientes de Desenvolvimento`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Desenvolvedor  | Reservar rapidamente um ambiente de desenvolvimento     | Iniciar meu trabalho de desenvolvimento sem demora         |
-|Testador de qualidade (QA)       | Verificar a disponibilidade dos ambientes de teste                 | Garantir que posso testar as novas funcionalidades o mais rápido possível |
-|Scrum Master (SM)  | Ter visibilidade das reservas de ambientes     | Garantir que o desenvolvimento e os testes estejam alinhados com o planejamento         |
+|Julia Gualtieri  | Uma plataforma dinâmica e segura.    | Acessibilidade do time em tempo real e com segurança.        |
+|Gilberto Souza       | Um financiamento concreto para os projetos. | Conseguir concluir com o máximo de qualidades as demandas. |
+|Igor Alves da Silva)  | Segurança para a produção de projetos.     | Cada vez mais existem formas de furtar dados.         |
 
 `Testes de Integração Contínua`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Desenvolvedor  | configurar testes de integração contínua para minhas funcionalidades     | garantir que as mudanças não causem problemas no sistema geral         |
-|Testador de qualidade (QA)       | ter visibilidade dos testes de integração contínua                 | verificar a estabilidade das funcionalidades e identificar falhas rapidamente |
-|Scrum Master (SM)  | garantir que os testes de integração estejam configurados para todas as funcionalidades     | ter confiança na qualidade do software entregue         |
-
-`Alocação Eficiente de Recursos`
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Desenvolvedor  | alocar recursos de desenvolvimento e teste de forma eficiente     | maximizar a utilização dos recursos disponíveis         |
-|Testador de qualidade (QA)       | verificar a alocação de recursos para testes                 | garantir que haja recursos suficientes para testar as funcionalidades adequadamente |
-|Scrum Master (SM)  | acompanhar a alocação de recursos para o desenvolvimento e testes    | assegurar um equilíbrio adequado entre as tarefas e evitar sobrecarga         |
-
-`Agendamento de Ambientes de Teste de Carga`
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Desenvolvedor  | agendar ambientes de teste de carga para simular condições de alto tráfego     | avaliar o desempenho do aplicativo sob carga pesada         |
-|Testador de qualidade (QA)       | verificar o agendamento dos ambientes de teste de carga                 | garantir que os testes sejam conduzidos nas condições planejadas |
-|Scrum Master (SM)  | acompanhar os resultados dos testes de carga     | garantir que o aplicativo esteja pronto para suportar situações de tráfego intenso         |
+|Julia Gualtieri | Conciliar melhor a gestão da produção do projeto.     | Concluir as demandas dentro do prazo.         |
+|Gilberto Souza       | Maior efetividade das ferramentas usadas para o desenvolvimento de sistemas. | Usarmos os meios que estão dentro do orçamento da Startup, e muitas vezes é o básico. |
+|Igor Alves da Silva  | Não haver escassez de recursos durante o desenvolvimento do projeto.    | Quanto maior os investimentos, melhor será a qualidade final do produto.     |
 
 
+(RETIRAR APÓS PRONTO)
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
@@ -73,7 +66,8 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
+
 
 ### Requisitos Funcionais
 
