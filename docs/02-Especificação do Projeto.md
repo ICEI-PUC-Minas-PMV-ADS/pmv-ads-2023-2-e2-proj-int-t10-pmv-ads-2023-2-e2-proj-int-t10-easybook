@@ -11,17 +11,17 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |Julia Gualtieri     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
 | ![persona1](/src/imagens/persona1.jpg) | **Idade:** 24 <br> **Ocupação:** Pós-Graduanda em Designer Gráfico, Designer Gráfico Junior em uma startup. |**Aplicativos:**<br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
-|**Motivações:**<br>●	Inspirar outras jovens mulheres a perseguir seus sonhos;<br>● Busca oportunidades de aprimorar suas habilidades. |**Frustrações:**<br>●	Nunca ter saído do País; <br>● 	Problemas em casa com os pais. |**Hobbies, História:**<br>● Dançar; <br>● Ler; <br>● Ama experimentar novas culinárias. |
+|**Motivações:**<br>●	Inspirar outras jovens mulheres a perseguir seus sonhos <br>● Busca oportunidades de aprimorar suas habilidades. |**Frustrações:**<br>●	Nunca ter saído do País; <br>● 	Problemas em casa com os pais. |**Hobbies, História:**<br>● Dançar <br>● Ler <br>● Ama experimentar novas culinárias |
 
 |Gilberto Souza    | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 26 <br> **Ocupação:** Desenvolvedor Pleno, trabalha em uma startup em Belo Horizonte.  |**Aplicativos:**<br>● Discord; <br>● Instagram <br>● Reddit <br>● LinkedIn   |
-|**Motivações:**<br>●	Progressão de carreira;<br>● Sair com os amigos para aliviar o estresse do trabalho;<br>● Ter uma vida saudável. |**Frustrações:**<br>●	Sobrecarga no trabalho; <br>● 	Falta de tempo para hobbies;<br>● Isolamento social. |**Hobbies, História:**<br>● Games; <br>● Esportes; <br>● Sair com amigos. |
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 26 <br> **Ocupação:** Desenvolvedor Pleno, trabalha em uma startup em Belo Horizonte.  |**Aplicativos:**<br>● Discord <br>● Instagram <br>● Reddit <br>● LinkedIn   |
+|**Motivações:**<br>●	Progressão de carreira;<br>● Sair com os amigos para aliviar o estresse do trabalho <br>● Ter uma vida saudável. |**Frustrações:**<br>●	Sobrecarga no trabalho <br>● 	Falta de tempo para hobbies<br>● Isolamento social. |**Hobbies, História:**<br>● Games <br>● Esportes <br>● Sair com amigos |
 
 |Igor Alves da Silva   | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 37 <br> **Ocupação:**Professor de ADS, CEO de uma startup.  |**Aplicativos:**<br>● Instagrem; <br>●Twitter <br>● LinkedIn; <br>● Facebook; <br>● GitHub; <br>Git.   |
-|**Motivações:**<br>●	Família;<br>● Gerar oportunidades;<br>● Guiar as pessoas até seus sonhos; <br>● Criar metodologias de alta performance. |**Frustrações:**<br>●Não poder oferecer mais oportunidades; <br>● 	Perca de oportunidades por falra de investimentos. |**Hobbies, História:**<br>● Ler; <br>● Estudar idiomas; <br>● Fotografia. |
+| ![persona1](/src/imagens/persona1.jpg) | **Idade:** 37 <br> **Ocupação:**Professor de ADS, CEO de uma startup.  |**Aplicativos:**<br>● Instagrem <br>●Twitter <br>● LinkedIn <br>● Facebook <br>● GitHub <br>Git   |
+|**Motivações:**<br>●	Família <br>● Gerar oportunidades <br>● Guiar as pessoas até seus sonhos  <br>● Criar metodologias de alta performance |**Frustrações:**<br>● Não poder oferecer mais oportunidades <br>● 	Perca de oportunidades por falta de investimentos |**Hobbies, História:**<br>● Ler <br>● Estudar idiomas <br>● Fotografia |
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
