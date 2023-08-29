@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários – membros de startups - em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
@@ -43,9 +41,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 O sistema deve atender de modo eficiente as demandas crescentes de um mesmo usuário e ser capaz de resistir a falhas e se recuperar delas inclusive as oriundas de ataques cibernéticos.
 
-
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
-
 
 ### Requisitos Funcionais
 
@@ -64,9 +60,6 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |  ALTA | 
 |RNF-005| Todas as informações do cliente devem ser criptografadas |  ALTA | 
 |RNF-006| O sistema deve implementar métodos de autenticação multi-fator para acesso ao sistema |  ALTA | 
-
-
-
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
