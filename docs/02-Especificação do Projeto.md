@@ -41,6 +41,9 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ## Requisitos
 
+O sistema deve atender de modo eficiente as demandas crescentes de um mesmo usuário e ser capaz de resistir a falhas e se recuperar delas inclusive as oriundas de ataques cibernéticos.
+
+
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 
@@ -55,8 +58,15 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deverá ter disponibilidade de 0,999 % | ALTA | 
+|RNF-002| O tempo médio de indisponibilidade deverá ser de 5 min em 99% das vezes |  ALTA | 
+|RNF-002| O sistema deverá ter uma taxa de ocorrência de falhas de 1/1000 |  ALTA | 
+|RNF-002| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |  ALTA | 
+|RNF-002| Todas as informações do cliente devem ser criptografadas |  ALTA | 
+|RNF-002| O sistema deve implementar métodos de autenticação multi-fator para acesso ao sistema |  ALTA | 
+
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
