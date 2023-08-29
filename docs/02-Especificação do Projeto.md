@@ -60,10 +60,10 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |-------|-------------------------|----|
 |RNF-001| O sistema deverá ter disponibilidade de 0,999 % | ALTA | 
 |RNF-002| O tempo médio de indisponibilidade deverá ser de 5 min em 99% das vezes |  ALTA | 
-|RNF-002| O sistema deverá ter uma taxa de ocorrência de falhas de 1/1000 |  ALTA | 
-|RNF-002| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |  ALTA | 
-|RNF-002| Todas as informações do cliente devem ser criptografadas |  ALTA | 
-|RNF-002| O sistema deve implementar métodos de autenticação multi-fator para acesso ao sistema |  ALTA | 
+|RNF-003| O sistema deverá ter uma taxa de ocorrência de falhas de 1/1000 |  ALTA | 
+|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |  ALTA | 
+|RNF-005| Todas as informações do cliente devem ser criptografadas |  ALTA | 
+|RNF-006| O sistema deve implementar métodos de autenticação multi-fator para acesso ao sistema |  ALTA | 
 
 
 
