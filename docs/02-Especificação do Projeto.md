@@ -30,7 +30,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |--------------------|------------------------------------|----------------------------------------|
 |Julia Gualtieri  | Uma plataforma dinâmica e segura.    | Acessibilidade do time em tempo real e com segurança.        |
 |Gilberto Souza       | Um financiamento concreto para os projetos. | Conseguir concluir com o máximo de qualidades as demandas. |
-|Igor Alves da Silva)  | Segurança para a produção de projetos.     | Cada vez mais existem formas de furtar dados.         |
+|Igor Alves da Silva  | Segurança para a produção de projetos.     | Cada vez mais existem formas de furtar dados.         |
 
 `Testes de Integração Contínua`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
