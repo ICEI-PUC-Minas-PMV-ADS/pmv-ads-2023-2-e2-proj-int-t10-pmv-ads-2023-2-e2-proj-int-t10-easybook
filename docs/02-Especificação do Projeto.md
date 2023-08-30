@@ -28,8 +28,8 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |Ricardo Gomes Aguiar     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona5](/docs/img/Persona5.jpg) | **Idade:** 26 <br> **Ocupação:** Estagiário de  gestor de tráfego em uma startup, graduando em ciência da computação. |**Aplicativos:** <br>● Twitter <br>● Instagram  <br>● LinkedIn <br>● Discord <br>●  Reddit    |
-|**Motivações:** <br>● Formar <br>●Sair da casa dos meus pais <br>● Comprar um carro. |**Frustrações:** <br>● Demorar para entrar para a área da tecnologia <br>● 	Falar pouco sobre seus sentimentos. |**Hobbies, História:** <br>● Jogos de computador <br>● Truco com amigos <br>● Cerveja|
+| ![persona5](/docs/img/Persona5.jpg) | **Idade:** 26 <br> **Ocupação:** Estagio em gestão de tráfego em uma startup, graduando em ciência da computação. |**Aplicativos:** <br>● Twitter <br>● Instagram  <br>● LinkedIn <br>● Discord <br>●  Reddit    |
+|**Motivações:** <br>● Formar <br>●Sair da casa dos  pais <br>● Comprar um carro. |**Frustrações:** <br>● Demorar para entrar para a área da tecnologia <br>● 	Falar pouco sobre seus sentimentos. |**Hobbies, História:** <br>● Jogos de computador <br>● Truco com amigos <br>● Cerveja|
 
 
 
