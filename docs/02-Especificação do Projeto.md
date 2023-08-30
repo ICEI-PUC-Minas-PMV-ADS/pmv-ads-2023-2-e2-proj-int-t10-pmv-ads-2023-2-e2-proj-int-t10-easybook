@@ -21,15 +21,15 @@ As personas levantadas durante o processo de entendimento do problema são apres
 | ![persona3](/docs/img/Persona3.jpg) | **Idade:** 37 <br> **Ocupação:** Professor de Análise e Desenvolvimento de Sistemas, CEO de uma startup.  |**Aplicativos:** <br>● Instagrem <br>●Twitter <br>● LinkedIn <br>● Facebook <br>● GitHub <br>Git   |
 |**Motivações:** <br>●	Família <br>● Gerar oportunidades <br>● Guiar as pessoas até seus sonhos  <br>● Criar metodologias de alta performance |**Frustrações:** <br>● Não poder oferecer  oportunidades a quem precisa de auxílio <br>● 	Oportunidades desperdiçadas por falta de investimentos |**Hobbies, História:** <br>● Ler <br>● Estudar idiomas <br>● Fotografia |
 
-|Elisa maria Fonseca     | Informações:                          |                                      |
+|Elisa Maria Fonseca     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
 | ![persona4](/docs/img/Persona4.jpg) | **Idade:** 35 <br> **Ocupação:** Business Developer em uma startup e coach de investimentos. |**Aplicativos:** <br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
 |**Motivações:** <br>● Ser 1% melhor do que no dia anterior; <br>● Romper preconceitos e diversidades. |**Frustrações:** <br>●	Não ter sido mãe ainda; <br>● 	Ganhar menos que meus colegas homens. |**Hobbies, História:** <br>● Dançar <br>● Beber vinho <br>● Gatos|
 
 |Ricardo Gomes Aguiar     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona5](/docs/img/Persona5.jpg) | **Idade:** 26 <br> **Ocupação:**Estagiário de  gestor de tráfego em uma startup, graduando em ciência da computação. |**Aplicativos:** <br>● Twitter <br>● Instagram  <br>● LinkedIn <br>● Discord <br>●  Reddit    |
-|**Motivações:** <br>● Formar; <br>●Sair da casa dos meus pais; <br>● Comprar um carro. |**Frustrações:** <br>● Demorar para entrar para a área da tecnologia; <br>● 	Falar pouco sobre meus sentimentos. |**Hobbies, História:** <br>● Jogos de computador; <br>● Truco com amigos; <br>● Cerveja|
+| ![persona5](/docs/img/Persona5.jpg) | **Idade:** 26 <br> **Ocupação:** Estagiário de  gestor de tráfego em uma startup, graduando em ciência da computação. |**Aplicativos:** <br>● Twitter <br>● Instagram  <br>● LinkedIn <br>● Discord <br>●  Reddit    |
+|**Motivações:** <br>● Formar <br>●Sair da casa dos meus pais <br>● Comprar um carro. |**Frustrações:** <br>● Demorar para entrar para a área da tecnologia <br>● 	Falar pouco sobre meus sentimentos. |**Hobbies, História:** <br>● Jogos de computador <br>● Truco com amigos <br>● Cerveja|
 
 
 
@@ -39,15 +39,19 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Julia Gualtieri  | Uma plataforma dinâmica e segura.    | Acessibilidade do time em tempo real e com segurança.        |
-|Gilberto Souza       | Um financiamento concreto para os projetos. | Conseguir concluir com o máximo de qualidades as demandas. |
-|Igor Alves da Silva  | Segurança para a produção de projetos.     | Cada vez mais existem formas de furtar dados.         |
+|Gilberto Souza       | Valores acessíveis quanto a reserva. | Startup não possui condições de mantes custos altos. |
+|Igor Alves da Silva  | Segurança na reserva.     | Assegurar a locação de tempo dentro do ambiente.         |
+|Elisa Maria Fonseca  | Consistência quanto as reservas .  | Sempre que solicitado o sistema ele venha responder adequadamente.         |
+|Ricardo Gomes Aguiar  | Designe adequado do sistema.     | Uso fácil e instintivo.         |
 
 `Testes de Integração Contínua`
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Julia Gualtieri | Conciliar melhor a gestão da produção do projeto.     | Concluir as demandas dentro do prazo.         |
-|Gilberto Souza       | Maior efetividade das ferramentas usadas para o desenvolvimento de sistemas. | Usarmos os meios que estão dentro do orçamento da Startup, e muitas vezes é o básico. |
+|Julia Gualtieri | Conciliar melhor a gestão da produção do projeto.     | Concluir as demandas dentro do prazo com o auxílio ddos testes.         |
+|Gilberto Souza       | Maior efetividade das ferramentas usadas para o desenvolvimento de sistemas. | Projetos são dinâmicos, logo precisam de uam metodologia de testes. |
 |Igor Alves da Silva  | Não haver escassez de recursos durante o desenvolvimento do projeto.    | Quanto maior os investimentos, melhor será a qualidade final do produto.     |
+|Elisa Maria Fonseca  | Custo baixo para promover os testes.     | Valores altos afastam Startups com pouca liquidez.         |
+|Ricardo Gomes Aguiar  | Testes de qualidade.     | Evitar bugs na hora de apresentar/usar oproduto.         |
 
 ## Requisitos
 
