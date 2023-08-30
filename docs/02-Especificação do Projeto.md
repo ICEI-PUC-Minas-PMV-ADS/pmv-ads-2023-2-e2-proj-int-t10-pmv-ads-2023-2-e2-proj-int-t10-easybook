@@ -51,7 +51,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |Gilberto Souza       | Maior efetividade das ferramentas usadas para o desenvolvimento de sistemas. | Projetos são dinâmicos, logo precisam de uam metodologia de testes. |
 |Igor Alves da Silva  | Não haver escassez de recursos durante o desenvolvimento do projeto.    | Quanto maior os investimentos, melhor será a qualidade final do produto.     |
 |Elisa Maria Fonseca  | Custo baixo para promover os testes.     | Valores altos afastam Startups com pouca liquidez.         |
-|Ricardo Gomes Aguiar  | Testes de qualidade.     | Evitar bugs na hora de apresentar/usar oproduto.         |
+|Ricardo Gomes Aguiar  | Testes de com alta qualidade.     | Evitar bugs na hora de apresentar/usar o produto.         |
 
 ## Requisitos
 
