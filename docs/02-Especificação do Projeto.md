@@ -9,7 +9,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 |Julia Gualtieri     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
 | ![persona1](/docs/img/Persona1.jpg) | **Idade:** 24 <br> **Ocupação:** Pós-Graduanda em Designer Gráfico, Designer Gráfico Junior em uma startup. |**Aplicativos:** <br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
-|**Motivações:** <br>●	Inspirar outras jovens mulheres a perseguir seus sonhos <br>● Busca oportunidades de aprimorar suas habilidades. |**Frustrações:** <br>●	Nunca ter saído do País; <br>● 	Problemas em casa com os pais. |**Hobbies, História:** <br>● Dançar <br>● Ler <br>● Ama experimentar novas culinárias |
+|**Motivações:** <br>●	Inspirar outras jovens mulheres a perseguir seus sonhos <br>● Busca oportunidades de aprimorar suas habilidades. |**Frustrações:** <br>●	Nunca ter saído do País; <br>● Problemas em casa com os pais. |**Hobbies, História:** <br>● Dançar <br>● Ler <br>● Ama experimentar novas culinárias |
 
 |Gilberto Souza    | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
@@ -18,18 +18,18 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 |Igor Alves da Silva   | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
-| ![persona3](/docs/img/Persona3.jpg) | **Idade:** 37 <br> **Ocupação:** Professor de Análise e Desenvolvimento de Sistemas, CEO de uma startup.  |**Aplicativos:** <br>● Instagrem <br>●Twitter <br>● LinkedIn <br>● Facebook <br>● GitHub <br>Git   |
-|**Motivações:** <br>●	Família <br>● Gerar oportunidades <br>● Guiar as pessoas até seus sonhos  <br>● Criar metodologias de alta performance |**Frustrações:** <br>● Não poder oferecer  oportunidades a quem precisa de auxílio <br>● 	Oportunidades desperdiçadas por falta de investimentos |**Hobbies, História:** <br>● Ler <br>● Estudar idiomas <br>● Fotografia |
+| ![persona3](/docs/img/Persona3.jpg) | **Idade:** 37 <br> **Ocupação:** Professor de Análise e Desenvolvimento de Sistemas, CEO de uma startup.  |**Aplicativos:** <br>● Instagrem <br>●Twitter <br>● LinkedIn <br>● Facebook <br>● GitHub  |
+|**Motivações:** <br>●	Família <br>● Gerar oportunidades <br>● Guiar as pessoas até seus sonhos  <br>● Criar metodologias de alta performance |**Frustrações:** <br>● Não poder oferecer  oportunidades a quem precisa de auxílio <br>● Oportunidades desperdiçadas por falta de investimentos |**Hobbies, História:** <br>● Ler <br>● Estudar idiomas <br>● Fotografia |
 
 |Elisa Maria Fonseca     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
 | ![persona4](/docs/img/Persona4.jpg) | **Idade:** 35 <br> **Ocupação:** Business Developer em uma startup e coach de investimentos. |**Aplicativos:** <br>● Twitter <br>● Instagram <br>● WhatsApp <br>● LinkedIn   |
-|**Motivações:** <br>● Ser 1% melhor do que no dia anterior; <br>● Romper preconceitos e diversidades. |**Frustrações:** <br>●	Não ter sido mãe ainda; <br>● 	Ganhar menos que meus colegas homens. |**Hobbies, História:** <br>● Dançar <br>● Beber vinho <br>● Gatos|
+|**Motivações:** <br>● Ser 1% melhor do que no dia anterior; <br>● Romper preconceitos e diversidades. |**Frustrações:** <br>●	Não ter sido mãe ainda; <br>● Ganhar menos que meus colegas homens. |**Hobbies, História:** <br>● Dançar <br>● Beber vinho <br>● Gatos|
 
 |Ricardo Gomes Aguiar     | Informações:                          |                                      |
 |--------------------|----------------------------------|--------------------------------------|
 | ![persona5](/docs/img/Persona5.jpg) | **Idade:** 26 <br> **Ocupação:** Estagio em gestão de tráfego em uma startup, graduando em ciência da computação. |**Aplicativos:** <br>● Twitter <br>● Instagram  <br>● LinkedIn <br>● Discord <br>●  Reddit    |
-|**Motivações:** <br>● Formar <br>●Sair da casa dos  pais <br>● Comprar um carro. |**Frustrações:** <br>● Demorar para entrar para a área da tecnologia <br>● 	Falar pouco sobre seus sentimentos. |**Hobbies, História:** <br>● Jogos de computador <br>● Truco com amigos <br>● Cerveja|
+|**Motivações:** <br>● Formar <br>●Sair da casa dos  pais <br>● Comprar um carro. |**Frustrações:** <br>● Demorar para entrar para a área da tecnologia <br>● Falar pouco sobre seus sentimentos. |**Hobbies, História:** <br>● Jogos de computador <br>● Truco com amigos <br>● Cerveja|
 
 
 
