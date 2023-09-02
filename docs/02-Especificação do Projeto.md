@@ -74,7 +74,7 @@ Na tabela a seguir, encontram-se listados os requisitos funcionais.
 |RF-05| O sistema  deve permitir reservar o ambiente de testes. | MEDIA |
 |RF-06| O site deve permitir que os usuários monitorem as reservas feitas. |BAIXA|
 |RF-07|	O site deve informar o status atual das salas (ambientes). |MEDIA|
-|RF-08| O site deve possibilitar a visualização do número total de ambientes disponíveis. | MEDIA |
+|RF-08| O site deve possibilitar a visualização do número total de ambientes disponíveis. | BAIXA |
 |RF-09| O sistema deve permitir que os administradores gerenciem as reservas.| ALTA | 
 |RF-10| O sistema deve enviar notificações por e-mail aos usuários sobre suas reservas. |MÉDIA|
 ### Requisitos não Funcionais
