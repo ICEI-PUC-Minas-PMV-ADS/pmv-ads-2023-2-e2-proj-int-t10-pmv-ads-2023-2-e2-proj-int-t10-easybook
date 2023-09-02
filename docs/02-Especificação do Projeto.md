@@ -67,7 +67,6 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-02| Emitir um relatório de tarefas no mês   | MEDIA |
 |RF-03| O site deve permitir fazer o login |MEDIA|
 |RF-04|	O site deve permitir fazer cadastro |MEDIA|
-|RF-04|	O site deve permitir fazer cadastro |MEDIA|
 |RF-05|	O site deve permitir ao usuário visualizar o sistema de reserva |MEDIA|
 |RF-06|	O sistema  deve permitir reservar o ambiente |ALTA|
 |RF-07|	O site deve permitir visualizar as reservas feitas |BAIXA|
