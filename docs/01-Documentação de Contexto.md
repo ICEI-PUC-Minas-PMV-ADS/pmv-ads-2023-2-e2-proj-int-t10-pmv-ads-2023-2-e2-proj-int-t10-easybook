@@ -7,6 +7,9 @@ Nesse contexto desafiador, as startups frequentemente esbarram na dolorosa restr
 ## Problema
 Um dos principais desafios para as startups tecnológicas esta na tomada de decisões estratégicas sobre o uso eficaz dos recursos, principalmente nos estágios iniciais. Com 90% das startups enfrentando o risco de fechamento dentro do primeiro ano, a falta de um sistema estruturado para a reserva e gestão dos ambientes de desenvolvimento e teste pode resultar em uma utilização ineficiente desses recursos, desencadeando atrasos, conflitos internos e custos desnecessários. O cenário financeiro incerto amplia ainda mais a importância de maximizar o valor de cada investimento.
 
+![diagrama](/docs/img/easy-booking-diagrama.png)
+<center> Figura 1 - Cenário de concorrência pelos recursos.</center>  
+
 
 ## Objetivos
 
