@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia utilizada pela equipe abrange um conjunto de ferramentas utilizadas para organizar os códigos, gerenciar o trabalho, executar as tarefas e administrar os diversos artefatos do projeto.
 
 ## Controle de Versão
 
@@ -39,39 +37,51 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+O grupo emprega metodologias ágeis para o desenvolvimento do projeto, sendo o Scrum a base fundamental para a condução do processo.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A organização da equipe é a seguinte:
+
+- `Scrum Master:` Bruno N. M. Cardoso
+- `Product Owner:` Renata G. Barbosa  
+- `Equipe de Desenvolvimento:`
+  - Caio C. S. Rezende 
+  - Gabriel M. Pereira
+  - Raimundo S. de M. Neto  
+- `Equipe de Design:`    
+  - Gabriel V. M. de Oliveira  
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para gerenciar e distribuir as atividades do projeto, a equipe está utilizando a ferramenta Projects, organizada com as seguintes listas: 
+
+- Backlog: incluímos as atividades a serem realizadas ou identificadas ao longo do projeto no Product Backlog.
+- To Do: a lista representa o Sprint Backlog em andamento, ou seja, as atividades executadas neste momento.
+- In Progress: tarefas iniciadas são movidas para esta lista.
+- Done: os itens desta lista passaram por verificações, idealmente conduzidas por outra pessoa que não esteve envolvida na execução da tarefa. Após serem aprovados, estão prontos para serem entregues. Não há mais modificações ou revisões pendentes.
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/494/views/1 . A Figura 1 exibe o quadro Kanban em seu estado atual.
+
+![Projects](docs/img/projects.png)
+
+<center>Figura 1 - Kanban Board </center>
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas utilizadas para o desenvolvimento do projeto estão listadas abaixo:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+| AMBIENTE                         | Ferramenta   | LINK DE ACESSO |
+|----------------------------------|--------------|----------------|
+|Repositório de Código Fonte       | GitHub       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook |
+|Editor de código          | Visual Studio | https://visualstudio.microsoft.com/pt-br/ |
+|Projeto de Interface e Wireframes | MarvelApp ou Adobe xd | A definir… |
+|Ferramentas de comunicação          | Teams e Whatsapp | - |
+|Gerenciamento do Projeto          | GitHub/Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/494/views/1 |
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Editor de código - *Visual Studio *.
+- Repositório de Código Fonte - *Github/Classroom*.
+- Ferramentas de desenho de tela (_wireframing_) - *A definir...*.
+- Ferramentas de comunicação - *Teams e Whatsapp*.
+- Gerenciamento do Projeto - *Github/Projects*.
+
+A escolha do editor de código foi feita devido ao fato de possuir integração com o sistema de controle de versão. Da mesma forma, a ferramenta de gerenciamento de projetos oferece uma integração igualmente eficiente, razão pela qual foi selecionada. Já as ferramentas de comunicação foram escolhidas porque abrangem mais facilmente todos os membros do grupo. A ferramenta de desenho de tela será definida posteriormente.
