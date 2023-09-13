@@ -84,12 +84,12 @@ Os requisitos não funcionais foram detalhados na tabela a seguir.
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ser publicado em um ambiente acessível expostas às publicamente na Internet (Repl.it, GitHub Pages, Heroku). | ALTA| 
-|RNF-002| O tempo médio de indisponibilidade deverá ser de 5 min em 99% das vezes |  MEDIA  | 
-|RNF-003| O sistema deverá ter uma taxa de ocorrência de falhas de 1/1000 |  MEDIA | 
-|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |  ALTA | 
+|RNF-002| O tempo médio de indisponibilidade deverá ser de 5 min em 99% das vezes. |  MEDIA  | 
+|RNF-003| O sistema deverá ter uma taxa de ocorrência de falhas de 1/1000 |  MEDIA. | 
+|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema. |  ALTA | 
 |RNF-005| O site deve ser compatível com os principais navegadores atuais do mercado. |  ALTA | 
 |RNF-006| O site deve ser fácil de usar, com interface intuitiva. |  MEDIA | 
-|RNF-007| O sistema deverá ter disponibilidade de 0,999 %  |  MEDIA | 
+|RNF-007| O sistema deverá ter disponibilidade de 0,999 %.  |  MEDIA | 
 
 ## Restrições
 
