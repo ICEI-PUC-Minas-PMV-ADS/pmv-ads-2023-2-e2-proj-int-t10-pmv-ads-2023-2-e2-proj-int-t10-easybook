@@ -47,7 +47,7 @@
 | Requisito       | RF-03 - O site deve permitir que os usuários visualizem o sistema de reserva. |
 | Objetivo do Teste | Verificar se os usuários conseguem acessar e visualizar o sistema de reserva de forma eficiente e intuitiva. |
 | Passos          | 1. Acesse o navegador.                                     |
-|                  | 2. Vá para a página inicial do site: https://seusite.com (Substitua "seusite.com" pelo endereço correto do seu site). |
+|                  | 2. Vá para a página inicial do site: https://www.easybooking.com. |
 |                  | 3. Efetue o login na aplicação usando suas credenciais de usuário. |
 |                  | 4. Navegue até a seção "Sistema de Reserva" ou equivalente. |
 |                  | 5. Observe e interaja com as opções de reserva disponíveis, como datas, horários e tipos de ambientes. |
@@ -66,7 +66,7 @@
 | Requisito       | RF-04 - O sistema deve permitir que os usuários reservem ambientes de testes. |
 | Objetivo do Teste | Verificar se os usuários podem efetuar reservas de ambientes de testes de forma eficiente e sem problemas significativos. |
 | Passos          | 1. Acesse o navegador.                                      |
-|                  | 2. Vá para a página inicial do site: https://seusite.com (Substitua "seusite.com" pelo endereço correto do seu site). |
+|                  | 2. Vá para a página inicial do site: https://www.easybooking.com |
 |                  | 3. Efetue o login na aplicação usando suas credenciais de usuário. |
 |                  | 4. Navegue até a seção "Reservar Ambiente de Teste" ou equivalente. |
 |                  | 5. Selecione o tipo de ambiente de teste que deseja reservar (se houver opções). |
@@ -85,7 +85,7 @@
 | Requisito       | RF-09 - O sistema deve permitir que os administradores gerenciem as reservas. |
 | Objetivo do Teste | Verificar se os administradores conseguem gerenciar as reservas de forma eficiente e eficaz. |
 | Passos          | 1. Acesse o navegador.                                      |
-|                  | 2. Vá para a página de login da aplicação: https://seusite.com/login (Substitua "seusite.com" pelo endereço correto do seu site). |
+|                  | 2. Vá para a página de login da aplicação: https://www.easybooking.com |
 |                  | 3. Efetue o login como um administrador usando suas credenciais de administrador. |
 |                  | 4. Navegue até a seção de gerenciamento de reservas ou equivalente. |
 |                  | 5. Visualize a lista de reservas existentes.                |
@@ -104,7 +104,7 @@
 | Requisito       | RF-10 - O sistema deve enviar notificações por e-mail aos usuários sobre suas reservas. |
 | Objetivo do Teste | Verificar se o sistema envia notificações por e-mail aos usuários quando realizam uma reserva e se essas notificações são entregues corretamente. |
 | Passos          | 1. Acesse o navegador.                                      |
-|                  | 2. Vá para a página inicial do site: https://seusite.com (Substitua "seusite.com" pelo endereço correto do seu site). |
+|                  | 2. Vá para a página inicial do site: https://www.easybooking.com. |
 |                  | 3. Efetue o login na aplicação usando suas credenciais de usuário. |
 |                  | 4. Realize uma reserva em nome do usuário, preenchendo os campos necessários. |
 |                  | 5. Após a conclusão da reserva, aguarde a notificação por e-mail. |
