@@ -7,7 +7,7 @@
 | Requisito       | RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
 | Objetivo do Teste | Verificar se o usuário consegue se cadastrar na aplicação de forma intuitiva e sem problemas significativos. |
 | Passos          | 1. Acesse o navegador.                                       |
-|                  | 2. Informe o endereço do site: https://seusite.com |
+|                  | 2. Informe o endereço do site: https://www.easybooking.com |
 |                  | 3. Na página principal, clique no botão "Criar conta" ou equivalente. |
 |                  | 4. Preencha os seguintes campos obrigatórios:               |
 |                  |    - E-mail                                                   |
@@ -31,7 +31,7 @@
 | Requisito       | RF-00Y - A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
 | Objetivo do Teste | Verificar se o usuário consegue realizar login de forma eficiente e sem problemas significativos. |
 | Passos          | 1. Acesse o navegador.                                    |
-|                  | 2. Informe o endereço do site: https://seusite.com |
+|                  | 2. Informe o endereço do site: https://www.easybooking.com |
 |                  | 3. Na página principal, clique no botão "Entrar" ou equivalente. |
 |                  | 4. Preencha o campo de e-mail com um endereço de e-mail válido. |
 |                  | 5. Preencha o campo de senha com a senha correta.          |
