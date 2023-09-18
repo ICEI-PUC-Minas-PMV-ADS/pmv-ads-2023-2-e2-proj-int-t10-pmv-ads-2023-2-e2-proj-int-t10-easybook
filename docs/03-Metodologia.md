@@ -24,14 +24,7 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+A estratégia de branching que escolhemos é uma abordagem baseada no tronco(trunk-based), onde a branch principal deve estar sempre em um estado estável e atualizado. Quando um desenvolvedor começa a trabalhar em uma nova funcionalidade, eles devem criar uma branch de funcionalidade (ou correção de bug) de curta duração. Branch de funcionalidade de longa duração são desencorajadas, pois aumentariam o risco de conflitos durante o merge. 
 
 ## Gerenciamento de Projeto
 
@@ -62,7 +55,7 @@ Para gerenciar e distribuir as atividades do projeto, a equipe está utilizando 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/494/views/1 . A Figura 1 exibe o quadro Kanban em seu estado atual.
 
 ![Projects](/docs/img/projects.png)
-<center>Figura 1 - Kanban Board </center>
+<center> Figura 1 - Kanban Board </center>
 
 ### Ferramentas
 
@@ -72,15 +65,15 @@ As ferramentas utilizadas para o desenvolvimento do projeto estão listadas abai
 |----------------------------------|--------------|----------------|
 |Repositório de Código Fonte       | GitHub       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook |
 |Editor de código          | Visual Studio | https://visualstudio.microsoft.com/pt-br/ |
-|Projeto de Interface e Wireframes | MarvelApp ou Adobe xd | A definir… |
-|Ferramentas de comunicação          | Teams e Whatsapp | - |
+|Projeto de Interface e Wireframes | MarvelApp | https://marvelapp.com/prototype/6de4f63 |
+|Ferramentas de comunicação          | Teams e Whatsapp | https://teams.microsoft.com/l/channel/19%3ace5fdca7bfd143d1b8e9f995b048f1c5%40thread.tacv2/T10%2520-%2520Grupo%252003?groupId=39bf0ba3-41ea-4020-847c-e523549608b3&tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161 |
 |Gerenciamento do Projeto          | GitHub/Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/494/views/1 |
 
 
-- Editor de código - *Visual Studio *.
+- Editor de código - *Visual Studio*.
 - Repositório de Código Fonte - *Github/Classroom*.
-- Ferramentas de desenho de tela (_wireframing_) - *A definir...*.
+- Ferramentas de desenho de tela (_wireframing_) - *Marvel*.
 - Ferramentas de comunicação - *Teams e Whatsapp*.
 - Gerenciamento do Projeto - *Github/Projects*.
 
-A escolha do editor de código foi feita devido ao fato de possuir integração com o sistema de controle de versão. Da mesma forma, a ferramenta de gerenciamento de projetos oferece uma integração igualmente eficiente, razão pela qual foi selecionada. Já as ferramentas de comunicação foram escolhidas porque abrangem mais facilmente todos os membros do grupo. A ferramenta de desenho de tela será definida posteriormente.
+A escolha do editor de código foi feita devido ao fato de possuir integração com o sistema de controle de versão. Da mesma forma, a ferramenta de gerenciamento de projetos oferece uma integração igualmente eficiente, razão pela qual foi selecionada. Já as ferramentas de comunicação foram escolhidas porque abrangem mais facilmente todos os membros do grupo. A ferramenta de desenho de tela foi escolhida  para captar melhor as necessidades da solução.
