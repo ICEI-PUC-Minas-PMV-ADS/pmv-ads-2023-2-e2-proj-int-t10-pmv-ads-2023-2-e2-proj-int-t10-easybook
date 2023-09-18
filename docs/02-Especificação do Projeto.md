@@ -71,7 +71,7 @@ Na tabela a seguir, encontram-se listados os requisitos funcionais.
 |RF-02|	O site deve permitir que os usuários se cadastrem. |MEDIA|
 |RF-03|	O site deve permitir que os usuários visualizem o sistema de reserva. |ALTA|
 |RF-04|	O sistema deve permitir que os usuários reservem ambientes de testes. |ALTA|
-|RF-05| O sistema  deve permitir reservar o ambiente de testes. | MEDIA |
+|RF-05| O site deve permitir visualizar as reservas feitas. | MEDIA |
 |RF-06| O site deve permitir que os usuários monitorem as reservas feitas. |BAIXA|
 |RF-07|	O site deve informar o status atual das salas (ambientes). |MEDIA|
 |RF-08| O site deve possibilitar a visualização do número total de ambientes disponíveis. | BAIXA |
