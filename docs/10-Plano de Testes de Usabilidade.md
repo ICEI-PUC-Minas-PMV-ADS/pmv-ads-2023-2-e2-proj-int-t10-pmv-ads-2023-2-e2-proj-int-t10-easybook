@@ -1,15 +1,85 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+Vamos Avaliar a usabilidade do sistema de reserva em relação aos requisitos funcionais especificados, identificar problemas de usabilidade e coletar feedback dos usuários.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+#### Método de Observação
+A metodologia de teste de usabilidade será por meio de medição e de avaliação do System Usability Scale(SUS). Os testes serão conduzidos remotamente.
+
+#### Participantes
+Serão recrutados 3 participantes interressados no nosso modelo de negócio.
+
+#### Tarefas a serem executadas
+
+Será solicitado aos participantes para concluirem as seguintes tarefas ao usar o sistema:
+
+    1)Realizar o cadastro como novo usuário.        
+    2)Realizar login no sistema; 
+    3)Reservar um ambiente de teste;
+    4)Verificar as reservas feitas;
+    5)Verificar o status atual das salas;   
+
+|**Casos de Teste** |**CT-01– Realizar o cadastro como novo usuário**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-02 - O site deve exibir uma página de cadastro ao clicar no botão “Cadastro”. |
+|Objetivo do Teste       | Efetuar cadastro no sistema. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página principal |
+|                        | 4)  Clicar em “Cadastrar” |
+|                        | 5)  Na página de cadastro informar dados|
+|                        | 6) Clicar no botão "Cadastrar”.  |
+| Critérios de êxito     |Realizar o login com os dados informados sem intercorrencias relacionadas ao sistema. |
+
+|**Casos de Teste** |**CT-02– Realizar Login**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-01 - O site deve exibir uma página para login ao clicar no botão “Sing in”. |
+|Objetivo do Teste       | Efetuar login no site. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página principal |
+|                        | 4)  Clicar em “Entrar” |
+|                        | 5)  Na página de login informar: username e password|
+|                        | 6) Clicar no botão "Entrar”.  |
+| Critérios de êxito     |Realizar o login com os dados informados sem intercorrencias relacionadas ao sistema.|
+
+|**Casos de Teste** |**CT-03– Reservar um ambiente de teste**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-04- O site deve exibir uma página de reserva ao clicar no botão “Book”. |
+|Objetivo do Teste       | Efetuar reserva de ambiente de teste. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página de reserva |
+|                        | 4)  Clicar em “Book” |    
+| Critérios de êxito     |Realizar a reserva de um abimente de teste. |
+
+|**Casos de Teste** |**CT-04– Verificar as reservas feitas**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-05- O site deve exibiras reserva realizadas. |
+|Objetivo do Teste       | Ver a reserva de ambiente de teste. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a reserva |  
+| Critérios de êxito     |Visualizar de Reservas Feitas. |
+
+|**Casos de Teste** |**CT-05– Verificar o status atual das salas**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-04- O site deve exibir uo status atual das salas. |
+|Objetivo do Teste       | Verificar o status atual das salas. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página de reserva | 
+| Critérios de êxito     |Visualizar o status atual das salas. |
+
+        
+#### Métricas
+
+A métrica será medida a partir da taxa de sucesso, facilidade de uso e satisfação:
+
+Taxa de sucesso: O percentual de participantes que conseguiram concluir cada tarefa.
+
+Facilidade de uso: os usuários irão avaliar o quão fácil ou difícil foi concluir cada tarefa conforme a escala de Likert de 1 a 5.
+
+Satisfação: os participantes avaliarão sua satisfação geral, de acordo, com a escala Likert de 1 a 5.
 
 Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
-
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
