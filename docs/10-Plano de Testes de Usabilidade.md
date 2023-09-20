@@ -16,7 +16,9 @@ Será solicitado aos participantes para concluirem as seguintes tarefas ao usar 
     2)Realizar login no sistema; 
     3)Reservar um ambiente de teste;
     4)Verificar as reservas feitas;
-    5)Verificar o status atual das salas;   
+    5)Verificar o status atual das salas; 
+    6)Realizar operações de gerenciamento de reservas (apenas para administradores);
+    7)Verificar se os e-mails de notificação são recebidos e compreendidos.
 
 |**Casos de Teste** |**CT-01– Realizar o cadastro como novo usuário**  |
 |:--------------:        |---------------------------------------|
@@ -54,7 +56,7 @@ Será solicitado aos participantes para concluirem as seguintes tarefas ao usar 
 
 |**Casos de Teste** |**CT-04– Verificar as reservas feitas**  |
 |:--------------:        |---------------------------------------|
-|Requisitos associados   | RF-05- O site deve exibiras reserva realizadas. |
+|Requisitos associados   | RF-0- O site deve exibiras reserva realizadas. |
 |Objetivo do Teste       | Ver a reserva de ambiente de teste. |
 |Passos                  | 1)  Acessar o Navegador |
 |                        | 2)  Informar o endereço do Site |
@@ -63,12 +65,29 @@ Será solicitado aos participantes para concluirem as seguintes tarefas ao usar 
 
 |**Casos de Teste** |**CT-05– Verificar o status atual das salas**  |
 |:--------------:        |---------------------------------------|
-|Requisitos associados   | RF-04- O site deve exibir uo status atual das salas. |
+|Requisitos associados   | RF-07- O site deve exibir uo status atual das salas. |
 |Objetivo do Teste       | Verificar o status atual das salas. |
 |Passos                  | 1)  Acessar o Navegador |
 |                        | 2)  Informar o endereço do Site |
 |                        | 3)  Visualizar a página de reserva | 
 | Critérios de êxito     |Visualizar o status atual das salas. |
+
+|**Casos de Teste** |**CT-06– Realizar operações de gerenciamento de reservas (apenas para administradores)**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-09- O site deve exibir uo status atual das salas. |
+|Objetivo do Teste       | Realizar operações de gerenciamento de reservas (apenas para administradores). | 
+| Critérios de êxito     |Realizar operações de gerenciamento de reservas pelos admin. |
+
+|**Casos de Teste** |**CT-07– Reservar um ambiente de teste**  |
+|:--------------:        |---------------------------------------|
+|Requisitos associados   | RF-10- O sistema deve enviar notificações por e-mail aos usuários sobre suas reservas. |
+|Objetivo do Teste       | Receber e-mails de confirmação. |
+|Passos                  | 1)  Acessar o Navegador |
+|                        | 2)  Informar o endereço do Site |
+|                        | 3)  Visualizar a página de reserva |
+|                        | 4)  Fazer a reserva |  
+|                        | 5)  Verificar caixa de -mails|   
+| Critérios de êxito     |Verificar se os e-mails de notificação são recebidos. |
 
         
 #### Métricas
