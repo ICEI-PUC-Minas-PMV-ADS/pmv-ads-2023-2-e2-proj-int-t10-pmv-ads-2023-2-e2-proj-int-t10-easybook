@@ -7,7 +7,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Possuem atributos e métodos que as qualificam para proposta de sua criação. Essa estrutura de classes fornece uma base para gerenciar os recursos de desenvolvimento e teste, bem como para rastrear atividades e gerar relatórios financeiros.
 
 ![diagrama](/docs/img/Diagrama_classe.png)
-<center>Figura 6 - Diagrama de Classes </center>
+<center>Figura 1 - Diagrama de Classes </center>
 
 ### Classes criadas para a estrutura do software:
 
@@ -101,17 +101,15 @@ A principal função do GerenciadorRecursos é fornecer funcionalidades para alo
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![MER](/docs/img/MER.drawio.png)
+<center>Figura 2 - Modelo ER  </center>
 
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![PBD](/docs/img/PBD.drawio.png)
+<center>Figura 2 - Projeto da Base de Dados </center>
 
 ## Tecnologias Utilizadas
 
