@@ -1,0 +1,37 @@
+
+body {
+    background-color: #F4F5F5;
+}
+.container-1{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #d4d4d4;
+    width: 80%;
+    height: 80%;
+    text-align: justify;
+    position: relative;
+    left: -20px;
+}
+/*.col-lg-6 {
+    background-color: #F3F3F3;
+    width: 303px;
+    height: 199px;
+  }
+*/
+
+.footer {
+   padding-bottom: 10px;  /* Height of the footer/deixar? */         
+}
+#footercopy {
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+    height: 2.5rem; /* Height of the footer */
+    bottom: 0;  /* stick to bottom */
+    font-size: 12px;
+}
