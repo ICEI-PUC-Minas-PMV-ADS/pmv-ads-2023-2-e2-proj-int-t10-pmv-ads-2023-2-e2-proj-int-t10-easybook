@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../template/imagens/logo.png" type="image/x-icon">
+    <title>EasyBooking.com</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="../template/css/index.css">
+
+    <style>
+		/* Header styles */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+		
+		.logo {
+            font-weight: bold;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+		
+		.container {
+            margin-top: 80px; /* Add top margin to prevent content overlap with header */
+        }
+
+        /* Example content */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+            border-radius: 5px;
+        }
+        .status-icon { margin-right: 5px; }
+        .status-free { color: #005c0f; }
+        .status-booked { color: #d10000; }
+        .name-input { margin-bottom: 10px; } 
+             
+    </style>
+</head>
+<body>
+	<header class="header">
+        <div class="logo">EasyBooking.com</div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <!-- Your content goes here -->
+            <h1>Bem-vindo ao EasyBooking.com</h1>
+            <p>Aqui você não só encontra as informações mais atualizadas sobre quem está usando qual locatário ou ambiente, mas também faz sua reserva para utilizá-lo.</p>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>
+                    <span>Ambiente 1</span>
+                </h2>
+                <div class="container-1">
+                    <p>Status: <span id="tenant1Status" class="status-icon status-free"><i class="fas fa-door-open fa-lg" style="color: #005c0f;"></i></span></p>
+                <div class="form-group">
+                    <label for="tenantName1" class="name-input">Your Name:</label>
+                    <input type="text" id="tenantName1" class="form-control" placeholder="Enter your name">
+                </div>
+                <button id="bookTenantButton1" class="btn btn-primary" onclick="bookTenant(1)">Book</button>
+                <p>Booked By: <span id="tenant1BookedBy"></span></p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2>Ambiente 2</h2>
+                <p>Status: <span id="tenant2Status" class="status-icon status-free"><i class="fas fa-door-open fa-lg" style="color: #005c0f;"></i></span></p>
+                <div class="form-group">
+                    <label for="tenantName2" class="name-input">Your Name:</label>
+                    <input type="text" id="tenantName2" class="form-control" placeholder="Enter your name">
+                </div>
+                <button id="bookTenantButton2" class="btn btn-primary" onclick="bookTenant(2)">Book</button>
+                <p>Booked By: <span id="tenant2BookedBy"></span></p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+			<div class="col-lg-6">
+                <h2>Ambiente 3</h2>
+                <p>Status: <span id="environment1Status" class="status-icon status-free"><i class="fas fa-door-open fa-lg" style="color: #005c0f;"></i></span></p>
+                <div class="form-group">
+                    <label for="name1" class="name-input">Your Name:</label>
+                    <input type="text" id="name1" class="form-control" placeholder="Enter your name">
+                </div>
+                <button id="bookButton1" class="btn btn-primary" onclick="bookEnvironment(1)">Book</button>
+                <p>Booked By: <span id="environment1BookedBy"></span></p>
+            </div>
+            <div class="col-lg-6">
+                <h2>Ambiente 4</h2>
+                <p>Status: <span id="environment2Status" class="status-icon status-free"><i class="fas fa-door-open fa-lg" style="color: #005c0f;"></i></span></p>
+                <div class="form-group">
+                    <label for="name2" class="name-input">Your Name:</label>
+                    <input type="text" id="name2" class="form-control" placeholder="Enter your name">
+                </div>
+                <button id="bookButton2" class="btn btn-primary" onclick="bookEnvironment(2)">Book</button>
+                <p>Booked By: <span id="environment2BookedBy"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function bookEnvironment(environmentId) {
+            let environmentStatusElement = document.getElementById(`environment${environmentId}Status`);
+            let bookEnvironmentButtonElement = document.getElementById(`bookButton${environmentId}`);
+            let environmentBookedByElement = document.getElementById(`environment${environmentId}BookedBy`);
+            let environmentNameInputElement = document.getElementById(`name${environmentId}`);
+
+            if (environmentStatusElement.classList.contains('status-free')) {
+                environmentStatusElement.classList.remove('status-free');
+                environmentStatusElement.classList.add('status-booked');
+                environmentStatusElement.innerHTML = '<i class="fas fa-door-closed fa-lg" style="color: #d10000;"></i>';
+                bookEnvironmentButtonElement.innerText = 'Unbook';
+                environmentBookedByElement.innerText = environmentNameInputElement.value || "Unknown";
+            } else {
+                environmentStatusElement.classList.remove('status-booked');
+                environmentStatusElement.classList.add('status-free');
+                environmentStatusElement.innerHTML = '<i class="fas fa-door-open fa-lg" style="color: #005c0f;"></i>';
+                bookEnvironmentButtonElement.innerText = 'Book';
+                environmentBookedByElement.innerText = "";
+            }
+
+            environmentNameInputElement.value = "";
+        }
+
+        function bookTenant(tenantId) {
+            let tenantStatusElement = document.getElementById(`tenant${tenantId}Status`);
+            let bookTenantButtonElement = document.getElementById(`bookTenantButton${tenantId}`);
+            let tenantBookedByElement = document.getElementById(`tenant${tenantId}BookedBy`);
+            let tenantNameInputElement = document.getElementById(`tenantName${tenantId}`);
+
+            if (tenantStatusElement.classList.contains('status-free')) {
+                tenantStatusElement.classList.remove('status-free');
+                tenantStatusElement.classList.add('status-booked');
+                tenantStatusElement.innerHTML = '<i class="fas fa-door-closed fa-lg" style="color: #d10000;"></i>';
+                bookTenantButtonElement.innerText = 'Unbook';
+                tenantBookedByElement.innerText = tenantNameInputElement.value || "Unknown";
+            } else {
+                tenantStatusElement.classList.remove('status-booked');
+                tenantStatusElement.classList.add('status-free');
+                tenantStatusElement.innerHTML = '<i class="fas fa-door-open fa-lg" style="color: #005c0f;"></i>';
+                bookTenantButtonElement.innerText = 'Book';
+                tenantBookedByElement.innerText = "";
+            }
+
+            tenantNameInputElement.value = "";
+        }
+    </script>
+    <section id="footercopy">
+        <footer class="footer">
+            <p>Copyright &copy; 2023 EasyBooking S/A - Todos os direitos reservados.</p>
+        </footer>
+    </section>
+</body>
+</html>
