@@ -1,37 +1,42 @@
 
 body {
-    background-color: #F4F5F5;
+  margin: 0;
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
 }
-.container-1{
-    background-color: white;
-    color: rgb(0, 0, 0);
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    background-color: #212529;
+    color: rgb(255, 255, 255);
     margin: 20px;
     padding: 15px;
-    border: 1px solid #d4d4d4;
-    width: 80%;
-    height: 80%;
+    border: 1px solid #383838;
+    border-radius: 1rem;
+    width: 100%;
+    height: 90%;
     text-align: justify;
     position: relative;
     left: -20px;
+    /*box-shadow: 2px 2px 2px 2px #d4d4d4;*/
 }
-/*.col-lg-6 {
-    background-color: #F3F3F3;
-    width: 303px;
-    height: 199px;
-  }
-*/
 
-.footer {
-   padding-bottom: 10px;  /* Height of the footer/deixar? */         
-}
-#footercopy {
-    background-color: #fafafa;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    width: 100%; 
-    height: 2.5rem; /* Height of the footer */
-    bottom: 0;  /* stick to bottom */
-    font-size: 12px;
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
 }
