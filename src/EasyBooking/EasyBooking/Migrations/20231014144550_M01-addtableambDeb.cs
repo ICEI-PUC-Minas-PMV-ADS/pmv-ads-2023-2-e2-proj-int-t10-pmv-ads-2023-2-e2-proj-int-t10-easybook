@@ -4,7 +4,7 @@
 
 namespace EasyBooking.Migrations
 {
-    public partial class M01addTableAmbienteDev : Migration
+    public partial class M01addtableambDeb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,7 +14,7 @@ namespace EasyBooking.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeAmbiente = table.Column<int>(type: "int", nullable: false),
+                    NomeAmbiente = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descricao = table.Column<int>(type: "int", nullable: false),
                     Capacidade = table.Column<int>(type: "int", nullable: false),
                     Disponibilidade = table.Column<int>(type: "int", nullable: false)

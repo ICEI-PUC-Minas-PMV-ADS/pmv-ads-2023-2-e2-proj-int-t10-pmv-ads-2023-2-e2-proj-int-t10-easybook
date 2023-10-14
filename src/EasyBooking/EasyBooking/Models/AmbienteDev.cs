@@ -10,15 +10,20 @@ namespace EasyBooking.Models
 
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar o nome do ambiente!")]
+        [Required(ErrorMessage = "Campo obrigatório!")]
         [Display(Name = "Nome do Ambiente")]
-        public int NomeAmbiente { get; set; }
+        public string NomeAmbiente { get; set; }
 
-        [Required(ErrorMessage = "Obrigatório informar a descrição do ambiente!")]
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        [Display(Name = "Id do Ambiente")]
         public int Descricao { get; set; }
-        
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
         public int Capacidade { get; set; }
-        
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
         public int Disponibilidade { get; set; }
+
+        public ICollection <Reserva> Reservas { get; set; }
     }
 }

@@ -11,14 +11,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EasyBooking.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231013121634_M01-addTableAmbienteDev")]
-    partial class M01addTableAmbienteDev
+    [Migration("20231014144550_M01-addtableambDeb")]
+    partial class M01addtableambDeb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.19")
+                .HasAnnotation("ProductVersion", "6.0.21")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -40,8 +40,9 @@ namespace EasyBooking.Migrations
                     b.Property<int>("Disponibilidade")
                         .HasColumnType("int");
 
-                    b.Property<int>("NomeAmbiente")
-                        .HasColumnType("int");
+                    b.Property<string>("NomeAmbiente")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

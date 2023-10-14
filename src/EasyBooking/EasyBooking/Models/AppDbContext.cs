@@ -8,5 +8,7 @@ namespace EasyBooking.Models
 
         public DbSet<AmbienteDev> AmbienteDevs { get; set; }
 
+        public DbSet<Reserva> Reservas { get; set; }
+
     }
 }
