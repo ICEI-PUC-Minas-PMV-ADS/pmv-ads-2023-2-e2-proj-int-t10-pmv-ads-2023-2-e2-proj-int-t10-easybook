@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EasyBooking
+build_property.RootNamespace = EasyBooking
+build_property.ProjectDir = M:\Git\pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook\src\EasyBooking\EasyBooking\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = M:\Git\pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook\src\EasyBooking\EasyBooking
+build_property._RazorSourceGeneratorDebug = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Reservas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Reservas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Reservas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Reservas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Reservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ximtsab234
