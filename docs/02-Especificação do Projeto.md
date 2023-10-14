@@ -69,7 +69,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-04|	O site deve permitir que os usuários reservem o ambiente de teste |ALTA|
 |RF-05|	O site deve permitir visualizar as reservas feitas |MEDIA|
 |RF-06|	O site deve permitir que monitorem as reservas feitas |BAIXA|
-|RF-07|	O site deve informar o estado atual das salas (ambiente) |media|
+|RF-07|	O site deve informar o estado atual das salas (ambiente) |MEDIA|
 |RF-08|	O site deve possibilitar a visualização do número total de ambientes disponíveis |BAIXA|
 |RF-09| O site deve permitir que os administradores gerenciem as reservas |ALTA|
 |RF-10| O sistema deve enviar notificação por e-mail aos usuários sobre suas reservas|MEDIA|
