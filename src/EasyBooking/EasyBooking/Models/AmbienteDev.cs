@@ -11,6 +11,7 @@ namespace EasyBooking.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o nome do ambiente!")]
+        [Display(Name = "Nome do Ambiente")]
         public int NomeAmbiente { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a descrição do ambiente!")]

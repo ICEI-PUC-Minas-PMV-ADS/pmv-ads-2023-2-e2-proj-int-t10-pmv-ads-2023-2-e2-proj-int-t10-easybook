@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = M:\Git\pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook\src\EasyBooking\EasyBooking
 build_property._RazorSourceGeneratorDebug = 
 
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/AmbienteDevs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW1iaWVudGVEZXZzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [M:/Git/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/src/EasyBooking/EasyBooking/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
