@@ -63,28 +63,29 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-02| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-03|	|O site deve permitir fazer o login |MÉDIA||
-|RF-04|	O site deve permitir fazer cadastro |Média|
-|RF-04|	O site deve permitir fazer cadastro |Média|
-|RF-05|	O site deve permitir ao usuário visualizar o sistema de reserva |Média|
-|RF-06|	O sistema  deve permitir reservar o ambiente |Alta|
-|RF-07|	O site deve permitir visualizar as reservas feitas |Baixa|
-|RF-08|	O site deve informar o status da sala |Média|
-
+|RF-01| O site deve permitir que os usuarios façam login | MEDIA | 
+|RF-02| O site deve permitir que os usuários se cadastrem | MÉDIA |
+|RF-03|	Os ite deve permitir que os ususários visuaizem o sistema de reserva |ALTA||
+|RF-04|	O site deve permitir que os usuários reservem o ambiente de teste |ALTA|
+|RF-05|	O site deve permitir visualizar as reservas feitas |MEDIA|
+|RF-06|	O site deve permitir que monitorem as reservas feitas |BAIXA|
+|RF-07|	O site deve informar o estado atual das salas (ambiente) |media|
+|RF-08|	O site deve possibilitar a visualização do número total de ambientes disponíveis |BAIXA|
+|RF-09| O site deve permitir que os administradores gerenciem as reservas |ALTA|
+|RF-10| O sistema deve enviar notificação por e-mail aos usuários sobre suas reservas|MEDIA|
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deverá ter disponibilidade de 0,999 % | ALTA | 
-|RNF-002| O tempo médio de indisponibilidade deverá ser de 5 min em 99% das vezes |  ALTA | 
-|RNF-003| O sistema deverá ter uma taxa de ocorrência de falhas de 1/1000 |  ALTA | 
-|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |  ALTA | 
-|RNF-005| Todas as informações do cliente devem ser criptografadas |  ALTA | 
-|RNF-006| O sistema deve implementar métodos de autenticação multi-fator para acesso ao sistema |  ALTA | 
+|RNF-001| O site deve ser publicado em um abiente acessível expostas às publicamente na internet (Repl.it, GithHub Pgages,Heroku)|ALTA| 
+|RNF-002| O tempo médio de insisponbilidade deverá ser de 5min em 99% das vezes |MEDIA| 
+|RNF-003| O site deverá ter uma ocorrência de falhas de 1/1000 |MEDIA| 
+|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |ALTA| 
+|RNF-005| O sistema deve ser compatível com navegadores atuais no mercado |ALTA| 
+|RNF-006| O site deve ser fácil de usar e com interface intuitiva |MEDIA| 
+|RNF-007| O sistema deverá ter disponibilidade de 0,999% |MEDIA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
