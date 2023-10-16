@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "n2xx34dnmFsgI0EKKBsBXkyy4exioycNiAnmVrkEv7T+3a48axEGiyATTuD6qHyJZMJN8kiTlN0LfarTfQ09XA==",
+  "dgSpecHash": "s8AZs+P3EpS1/ktomKq/Lbo8WPqOCROi3rWnrHznlSmN1ESnJY6kwX1YlaNy82QkpbKb0c99Ty2kLM5RCYZn7A==",
   "success": true,
   "projectFilePath": "M:\\Git\\pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook\\src\\EasyBooking\\EasyBooking\\EasyBooking.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gonza\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gonza\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
