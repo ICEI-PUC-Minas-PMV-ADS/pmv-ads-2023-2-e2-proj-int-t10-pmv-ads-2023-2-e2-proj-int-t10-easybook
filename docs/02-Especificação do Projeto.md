@@ -63,13 +63,13 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| O site deve permitir que os usuarios façam login | MEDIA | 
+|RF-01| O site deve permitir que os usuários façam login | MEDIA | 
 |RF-02| O site deve permitir que os usuários se cadastrem | MÉDIA |
-|RF-03|	Os ite deve permitir que os ususários visuaizem o sistema de reserva |ALTA||
-|RF-04|	O site deve permitir que os usuários reservem o ambiente de teste |ALTA|
+|RF-03|	Os site deve permitir que os ususários visualizem o sistema de reserva |ALTA||
+|RF-04|	O site deve permitir que os usuários reservem ambientes de testes |ALTA|
 |RF-05|	O site deve permitir visualizar as reservas feitas |MEDIA|
 |RF-06|	O site deve permitir que monitorem as reservas feitas |BAIXA|
-|RF-07|	O site deve informar o estado atual das salas (ambiente) |media|
+|RF-07|	O site deve informar o estado atual das salas (ambientes) |media|
 |RF-08|	O site deve possibilitar a visualização do número total de ambientes disponíveis |BAIXA|
 |RF-09| O site deve permitir que os administradores gerenciem as reservas |ALTA|
 |RF-10| O sistema deve enviar notificação por e-mail aos usuários sobre suas reservas|MEDIA|
@@ -82,25 +82,10 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RNF-001| O site deve ser publicado em um abiente acessível expostas às publicamente na internet (Repl.it, GithHub Pgages,Heroku)|ALTA| 
 |RNF-002| O tempo médio de insisponbilidade deverá ser de 5min em 99% das vezes |MEDIA| 
 |RNF-003| O site deverá ter uma ocorrência de falhas de 1/1000 |MEDIA| 
-|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |ALTA| 
-|RNF-005| O sistema deve ser compatível com navegadores atuais no mercado |ALTA| 
+|RNF-004| Os usuários devem realizar um cadastro onde se identificarão antes de utilizar o sistema |BAIXA| 
+|RNF-005| O sistema deve ser compatível com os principais navegadores do mercado |ALTA| 
 |RNF-006| O site deve ser fácil de usar e com interface intuitiva |MEDIA| 
-|RNF-007| O sistema deverá ter disponibilidade de 0,999% |MEDIA|
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-007| O sistema deverá ter disponibilidade de 0,999% |BAIXA|
 
 ## Restrições
 
@@ -108,15 +93,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto deve ser concluído no prazo estipulado, sem qualquer atraso.|
+|RE-02| O sistema deve ser desenvolvido utilizando tecnologias básicas de uma aplicação interativa.|
+|RE-03| O sistema deve estar consoante às regras da disciplina.|
+|RE-04| A equipe responsável pelo desenvolvimento do sistema deve ser o grupo 03 turma 10 da disciplina de Projeto: Desenvolvimento de uma Aplicação Interativa. |
 
 ## Diagrama de Casos de Uso
 
@@ -131,6 +111,3 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
 
-## Diagrama de Entidade e Relacionamento
-
-![Diagrama ER](<diagrama ER.png>)
