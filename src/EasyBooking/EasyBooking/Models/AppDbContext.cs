@@ -10,5 +10,7 @@ namespace EasyBooking.Models
 
         public DbSet<Reserva> Reservas { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
     }
 }
