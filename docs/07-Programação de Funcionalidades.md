@@ -1,15 +1,21 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
-
 Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
+Nesta seção são apresentadas as funcionalidades desenvolvidas do sistema.
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-001| O site deve permitir que os usuários façam login | login.cshtml / users.cs / UsersController.cs | 
+|RF-002| O site deve permitir que os usuários se cadastrem   | Artefato não produzido |
+|RF-003| O site deve permitir que os ususários visualizem o sistema de reserva  | Details.cshtml/ Reserva.cs/ ReservasController.cs |
+|RF-004| O site deve permitir que os usuários reservem ambientes de testes  | Create.cshtml/ Reserva.cs/ ReservasController.cs |
+|RF-005| O site deve permitir visualizar as reservas feitas | Details.cshtml/ Reserva.cs/ ReservasController.cs |
+|RF-006| O site deve permitir que monitorem as reservas feitas | Artefato não produzido |
+|RF-007| O site deve informar o estado atual das salas (ambientes) | Artefato não produzido |
+|RF-008| O site deve possibilitar a visualização do número total de ambientes disponíveis |  Details.cshtml/ Reserva.cs/ ReservasController.cs |
+|RF-009| O site deve permitir que os administradores gerenciem as reservas |  Edit.cshtml/Delete.cshtml / Reserva.cs/ ReservasController.cs |
+|RF-010| O site deve permitir que os administradores gerenciem as reservas |  Artefato não produzido |
 
 # Instruções de acesso
 
