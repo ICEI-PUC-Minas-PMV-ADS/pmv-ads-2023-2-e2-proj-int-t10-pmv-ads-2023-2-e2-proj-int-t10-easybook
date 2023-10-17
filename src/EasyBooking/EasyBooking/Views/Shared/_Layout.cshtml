@@ -22,23 +22,23 @@
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="AmbienteDevs" asp-action="Index">Ambientes</a>
+                            <a class="nav-link" asp-area="" asp-controller="AmbienteDevs" asp-action="Index">Ambientes</a>
                         </li>
 
                         @if(User.Identity.IsAuthenticated)
                         {
 
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Reservas" asp-action="Index">Reservas</a>
+                                <a class="nav-link" asp-area="" asp-controller="Reservas" asp-action="Index">Reservas</a>
                             </li>
 
                             @if(User.IsInRole("Admin"))
                             {
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Usuários</a>
+                                    <a class="nav-link" asp-area="" asp-controller="Users" asp-action="Index">Usuários</a>
                                 </li>
                             }
 
@@ -49,13 +49,13 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                Olá,@User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
+                                Olá,@User.Identity.Name <a class="nav-link" asp-area="" asp-controller="Users" asp-action="Logout">Sair</a>
                             </li>
                         }
                         else
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
+                                <a class="nav-link" asp-area="" asp-controller="Users" asp-action="Login">Login</a>
                             </li>
                         }
 
