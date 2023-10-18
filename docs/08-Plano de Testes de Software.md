@@ -3,7 +3,7 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 | Caso de Teste   | CT-01 – Efetuar Login                                    |
 |------------------|---------------------------------------------------------|
-| Requisito       | RF-01 - O site deve permitir que os usuários façam login. |
+| Requisito       | RF-01 - O site deve permitir que os usuários faça o login. |
 | Objetivo do Teste | Verificar se o usuário consegue realizar login de forma eficiente e sem problemas significativos. |
 | Passos          | 1. Acesse o navegador.                                    |
 |                  | 2. Informe o endereço do site: https://www.easybooking.com |
@@ -99,7 +99,7 @@
 |                  | - Registre o tempo necessário para concluir cada ação de gerenciamento. |
 |                  | - Observe como o sistema lida com situações incomuns, como conflitos de reservas ou erros de usuário. |
 
-| Caso de Teste   | CT-08 – Notificações por E-mail de Reservas                   |
+| Caso de Teste   | CT-06 – Notificações por E-mail de Reservas                   |
 |------------------|------------------------------------------------------------|
 | Requisito       | RF-10 - O sistema deve enviar notificações por e-mail aos usuários sobre suas reservas. |
 | Objetivo do Teste | Verificar se o sistema envia notificações por e-mail aos usuários quando realizam uma reserva e se essas notificações são entregues corretamente. |
