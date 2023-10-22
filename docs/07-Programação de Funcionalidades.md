@@ -7,7 +7,7 @@ Nesta seção são apresentadas as funcionalidades desenvolvidas do sistema.
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| O site deve permitir que os usuários façam login | login.cshtml / users.cs / UsersController.cs | 
-|RF-002| O site deve permitir que os usuários se cadastrem   | Artefato não produzido |
+|RF-002| O site deve permitir que os usuários se cadastrem   | Create.cshtml / users.cs / UsersController.cs |
 |RF-003| O site deve permitir que os ususários visualizem o sistema de reserva  | Details.cshtml/ Reserva.cs/ ReservasController.cs |
 |RF-004| O site deve permitir que os usuários reservem ambientes de testes  | Create.cshtml/ Reserva.cs/ ReservasController.cs |
 |RF-005| O site deve permitir visualizar as reservas feitas | Details.cshtml/ Reserva.cs/ ReservasController.cs |
