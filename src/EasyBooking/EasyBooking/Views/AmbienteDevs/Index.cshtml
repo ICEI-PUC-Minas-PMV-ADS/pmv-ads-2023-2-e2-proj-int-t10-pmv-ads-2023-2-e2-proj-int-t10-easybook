@@ -4,50 +4,68 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Lista de Ambientes</h1>
+<section class="vh-100 gradient-custom">
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-6">
+                <h2 class="text-white">Lista de Ambientes</h2>
+            </div>
+            <div class="col-6 text-end">
+                <p>
+                    <a asp-action="Create" class="btn btn-success">
+                        <i class="bi bi-plus-circle"></i> &nbsp; Criar novo Ambiente
+                    </a>
 
-<p>
-    <a asp-action="Create" class="btn btn-success">Adicionar novo Ambiente</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NomeAmbiente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Capacidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Disponibilidade)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                    <a asp-action="Relatorio" asp-route-id="@item.Id">@item.NomeAmbiente</a>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Capacidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Disponibilidade)
-            </td>
-            <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                </p>
+
+            </div>
+
+        </div>
+
+        <br /><br />
+
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NomeAmbiente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Descricao)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Capacidade)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Disponibilidade)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a asp-action="Relatorio" asp-route-id="@item.Id">@item.NomeAmbiente</a>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Descricao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Capacidade)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Disponibilidade)
+                        </td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i>&nbsp; Editar</a> |
+                            <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id"><i class="bi bi-binoculars"></i>&nbsp; Visualizar</a> |
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash"></i>&nbsp; Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
