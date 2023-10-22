@@ -4,45 +4,69 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1 class="mb-2 text-uppercase text-white">Cadastro de usuário</h1>
 
-<h4>User</h4>
+
+<!--h4 class="mb-2 text-uppercase text-white">User</h4>-->
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Perfil" class="control-label"></label>
-                <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
-                <span asp-validation-for="Perfil" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+<section class="vh-100 gradient-custom">
+    <div class="container py-4 h-100 ">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-7 mb-6 mb-lg-0">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 shadow-5 text-center">
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+                        <div class="row g-0 ">
 
+                            <div class="mb-md-3 mt-md-2 pb-2">
+                                <h2 class="fw-bold mb-2 text-uppercase">Cadastre-se</h2>
+                                <p class="text-white-50 mb-5"></p>
+
+
+                                <form asp-action="Create">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group form-white mb-4">
+                                        <label asp-for="Nome" class="form-label form-control-lg"></label>
+                                        <input asp-for="Nome" class="form-control" placeholder="Nome" />
+                                        <span asp-validation-for="Nome" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Email" class="form-label"></label>
+                                        <input asp-for="Email" class="form-control" placeholder="E-mail" />
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Senha" class="form-label"></label>
+                                        <input asp-for="Senha" class="form-control" placeholder="Senha" />
+                                        <span asp-validation-for="Senha" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group mb-2">
+                                        <label asp-for="Perfil" class="form-label"></label>
+                                        <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
+                                        <span asp-validation-for="Perfil" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group mb-0">
+                                        <input type="submit" value="CADASTRAR" class="btn btn-outline-light btn-lg px-4" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a asp-action="Index" class="btn btn-outline-light btn-lg px-6 mb-3"><i class="bi bi-skip-backward"></i>&nbsp; Voltar para lista</a>
+                        </div>
+
+                        <div>
+                            <p class="mb-0">Já tem uma conta? <a asp-action="Index" class="text-white-40 fw-bold">Login</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -4,32 +4,62 @@
     ViewData["Title"] = "Login";
 }
 
-<h1>Login</h1>
+<!--<h1 class="mb-2 text-uppercase text-white">Login</h1>
 
-<h4>Usuário</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Login">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
+<h4 class="mb-2 text-uppercase text-white">Usuário</h4>
+<hr />-->
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100 ">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+
+                        <div class="row">
+                            <div class="mb-md-4 mt-md-4 pb-4">
+
+                                <h2 class="fw-bold mb-2 text-uppercase">LOGIN</h2>
+                                <p class="text-white-50 mb-5">Por favor insira seu id e senha!</p>
+
+                                <form asp-action="Login">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group form-white mb-4">
+                                        <label asp-for="Id" class="control-label"></label>
+                                        <input asp-for="Id" class="form-control" />
+                                        <span asp-validation-for="Id" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group form-white mb-4">
+                                        <label asp-for="Senha" class="control-label"></label>
+                                        <input asp-for="Senha" class="form-control" />
+                                        <span asp-validation-for="Senha" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input type="submit" value="ENTRAR" class=" btn btn-outline-light btn-lg px-5" />
+                                    </div>
+                                    <p class="small mb-3 pb-lg-2">
+                                        <a class="text-white-50" href="#!">Esqueceu sua senha?</a>
+                                    </p>
+
+                                </form>
+                                <h3>@ViewBag.Message</h3>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="mb-0">Não tem uma conta? <a asp-action="Index" class="text-white-40 fw-bold">Cadastre-se</a></p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Acessar" class="btn btn-success" />
-            </div>
-        </form>
-        <h3>@ViewBag.Message</h3>
+        </div>
     </div>
-</div>
+</section>
+
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
