@@ -64,7 +64,18 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" style="font-weight: bold;" asp-area="" asp-controller="Users" asp-action="Index">Usuários</a>
                             </li>
-                        }          
+                        } 
+                        
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" style="font-weight: bold;" asp-area="" asp-controller="AmbienteDevs" asp-action="Relatorio">Relatório</a>
+                            </li>
+                        }
+                           
+                        <li>
+                            <a class="nav-link text-white" style="font-weight: bold;" asp-area="" asp-controller="AmbienteDevs" asp-action="Create">Cadastro</a>
+                        </li>
  
                     </ul>
 

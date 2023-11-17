@@ -15,7 +15,8 @@ namespace EasyBooking.Controllers
 
         public IActionResult Index()
         {
-            return RedirectToAction("Index", "AmbienteDevs");
+                return View();//como está agora
+            //return RedirectToAction("Index", "AmbienteDevs"); // Redireciona para a página de AmbienteDevs- Como era antes
         }
 
         public IActionResult Privacy()
