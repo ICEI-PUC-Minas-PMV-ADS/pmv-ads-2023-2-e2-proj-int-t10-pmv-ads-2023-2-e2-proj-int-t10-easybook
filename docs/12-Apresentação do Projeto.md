@@ -6,9 +6,18 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Título do Projeto
 
-Nome e marca do projeto
+ - Nome: EasyBooking 
+ - Slogan: Your booking system (Seu sistema de reserva)
 
 ## Identidade Visual (Marca, Design)
+
+Logomarca
+![Exemplo Logomarca](/img/logo-easy.png)
+<center> Figura 1 - Logomarca </center> 
+
+### Paleta de Cores
+![Exemplo Paleta de cor](/docs/img/paleta-cor.png)
+<center> Figura 2 - Paleta de cor </center> 
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
