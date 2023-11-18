@@ -5,7 +5,7 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 
 # Tela de Home
 
-![Home](/docs/img/template-aplicacao/.png)
+![Home](/docs/img/template-aplicacao/home-page.png)
 <center> Figura 1 - Tela Home </center>
 
 # Tela de Cadastro
