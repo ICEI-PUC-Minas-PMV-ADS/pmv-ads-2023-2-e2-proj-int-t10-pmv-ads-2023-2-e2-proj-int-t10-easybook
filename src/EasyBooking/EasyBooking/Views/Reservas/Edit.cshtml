@@ -5,43 +5,62 @@
 }
 
 <h1>Editar Reservas</h1>
-
-<h4>Reserva</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="DataHoraInicio" class="control-label"></label>
-                <input asp-for="DataHoraInicio" class="form-control" />
-                <span asp-validation-for="DataHoraInicio" class="text-danger"></span>
+
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-4 h-100 ">
+        <div class="row d-flex h-100">
+            <div class="col-lg-7 mb-4 mb-lg-0">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-8 shadow-4 ">
+                        <div class="row g-0 ">
+                            <div class="col-md-9">
+
+                                <h4>Reserva</h4>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <form asp-action="Edit">
+                                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                            <input type="hidden" asp-for="Id" />
+                                            <div class="form-group">
+                                                <label asp-for="DataHoraInicio" class="control-label"></label>
+                                                <input asp-for="DataHoraInicio" class="form-control" />
+                                                <span asp-validation-for="DataHoraInicio" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="DataHoraTermino" class="control-label"></label>
+                                                <input asp-for="DataHoraTermino" class="form-control" />
+                                                <span asp-validation-for="DataHoraTermino" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="UserId" class="control-label"></label>
+                                                <input asp-for="UserId" class="form-control" />
+                                                <span asp-validation-for="UserId" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label asp-for="AmbienteId" class="control-label"></label>
+                                                <select asp-for="AmbienteId" class="form-control" asp-items="ViewBag.AmbienteId"></select>
+                                                <span asp-validation-for="AmbienteId" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <a asp-action="Index" class="btn btn-outline-light btn-lg px-3 mb-3"> <i class="bi bi-skip-backward"></i>&nbsp;Voltar</a>
+                                                <input type="submit" value="Salvar" class=" btn btn-outline-light btn-lg px-4 mb-3" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="DataHoraTermino" class="control-label"></label>
-                <input asp-for="DataHoraTermino" class="form-control" />
-                <span asp-validation-for="DataHoraTermino" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <input asp-for="UserId" class="form-control" />
-                <span asp-validation-for="UserId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="AmbienteId" class="control-label"></label>
-                <select asp-for="AmbienteId" class="form-control" asp-items="ViewBag.AmbienteId"></select>
-                <span asp-validation-for="AmbienteId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <a class="btn btn-info" asp-action="Index">Voltar</a>
-                <input type="submit" value="Salvar" class="btn btn-success" />
-            </div>
-        </form>
+        </div>
     </div>
-</div>
-
-
+</section>
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

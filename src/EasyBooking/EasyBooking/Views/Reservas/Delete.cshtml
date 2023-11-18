@@ -6,41 +6,59 @@
 
 <h1>Remover reserva</h1>
 
-<h3>Tem certeza que deseja remover essa reserva?</h3>
-<div>
-    <h4>Reserva</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataHoraInicio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataHoraInicio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataHoraTermino)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataHoraTermino)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UserId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UserId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AmbienteDev)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AmbienteDev.NomeAmbiente)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <a class="btn btn-info"  asp-action="Index">Voltar</a>|
-        <input type="submit" value="Deletar" class="btn btn-danger" /> 
-        
-    </form>
-</div>
+
+<hr />
+
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <div class="row d-flex h-100">
+            <div class="col-12 col-md-4 col-lg-6 col-xl-6">
+                <div class="card bg-dark text-white" style="border-radius: 1rem; margin-bottom: 20px;">
+                    <div class="card-body p-3">
+                        <div class="mb-md-4 mt-md-3 pb-2">
+                            <div>
+                                <h3>Tem certeza que deseja remover essa reserva?</h3>
+                                <h4>Reserva</h4>
+                                <hr />
+                                <dl class="row">
+                                    <dt class="col-sm-2">
+                                        @Html.DisplayNameFor(model => model.DataHoraInicio)
+                                    </dt>
+                                    <dd class="col-sm-10">
+                                        @Html.DisplayFor(model => model.DataHoraInicio)
+                                    </dd>
+                                    <dt class="col-sm-2">
+                                        @Html.DisplayNameFor(model => model.DataHoraTermino)
+                                    </dt>
+                                    <dd class="col-sm-10">
+                                        @Html.DisplayFor(model => model.DataHoraTermino)
+                                    </dd>
+                                    <dt class="col-sm-2">
+                                        @Html.DisplayNameFor(model => model.UserId)
+                                    </dt>
+                                    <dd class="col-sm-10">
+                                        @Html.DisplayFor(model => model.UserId)
+                                    </dd>
+                                    <dt class="col-sm-2">
+                                        @Html.DisplayNameFor(model => model.AmbienteDev)
+                                    </dt>
+                                    <dd class="col-sm-10">
+                                        @Html.DisplayFor(model => model.AmbienteDev.NomeAmbiente)
+                                    </dd>
+                                </dl>
+
+                                <form asp-action="Delete">
+                                    <input type="hidden" asp-for="Id" />
+                                    <a asp-action="Index" class="btn btn-outline-light btn-lg px-4 mb-3"> <i class="bi bi-skip-backward"></i>&nbsp; Voltar</a>|
+                                    <input type="submit" value="Deletar" class="btn btn-outline-danger btn-lg px-4 mb-3" />
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

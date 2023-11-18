@@ -4,9 +4,9 @@
     ViewData["Title"] = "Edit";
 }
 <br />
-<h1>Editar</h1>
+<h1>Editar Usuário</h1>
 
-<h4>Usuário</h4>
+
 <hr />
 <section class="vh-100 gradient-custom">
     <div class="container py-4 h-100 ">
@@ -16,7 +16,8 @@
                     <div class="card-body p-4 shadow-4 ">
                         <div class="row g-0 ">
                             <div class="col-md-9">
-
+                                <h4>Usuário</h4>
+                                <hr />
                                 <form asp-action="Edit">
                                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                                     <input type="hidden" asp-for="Id" />
@@ -41,16 +42,12 @@
                                         <span asp-validation-for="Perfil" class="text-danger"></span>
                                     </div>
                                     <div class="form-group mb-2">
-                                        <input type="submit" value="Salvar" class=" btn btn-outline-light btn-lg px-5" />
+                                        <a asp-action="Index" class="btn btn-outline-light btn-lg px-6 mb-3"> <i class="bi bi-skip-backward"></i>&nbsp; Voltar</a>
+                                        <input type="submit" value="Salvar" class=" btn btn-outline-light btn-lg px-5 mb-3" />
                                     </div>
                                 </form>
                             </div>
-                        </div>
-
-                        <div>
-                            <a asp-action="Index" class="btn btn-outline-light btn-lg px-6 mb-3"> <i class="bi bi-skip-backward"></i>&nbsp; Voltar para lista</a>
-                        </div>
-
+                        </div>                        
                     </div>
                 </div>
             </div>
