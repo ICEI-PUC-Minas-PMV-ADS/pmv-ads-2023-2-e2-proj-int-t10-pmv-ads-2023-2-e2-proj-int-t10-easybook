@@ -5,44 +5,64 @@
 }
 
 <h1>Editar</h1>
-
-<h4>AmbienteDev</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="NomeAmbiente" class="control-label"></label>
-                <input asp-for="NomeAmbiente" class="form-control" />
-                <span asp-validation-for="NomeAmbiente" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Descricao" class="control-label"></label>
-                <input asp-for="Descricao" class="form-control" />
-                <span asp-validation-for="Descricao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Capacidade" class="control-label"></label>
-                <input asp-for="Capacidade" class="form-control" />
-                <span asp-validation-for="Capacidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Disponibilidade" class="control-label"></label>
-                <input asp-for="Disponibilidade" class="form-control" />
-                <span asp-validation-for="Disponibilidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <a class="btn btn-info" asp-action="Index">Voltar</a>
-                <input type="submit" value="Salvar" class="btn btn-success" />
-            </div>
-        </form>
-    </div>
-</div>
 
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-4 h-100 ">
+        <div class="row d-flex h-100">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+                <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                    <div class="card-body p-4 shadow-4 ">
+                        <div class="row g-0 ">
+                            <div class="col-md-9">
+
+                                <h4>AmbienteDev</h4>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-md-11">
+                                        <form asp-action="Edit">
+                                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                            <input type="hidden" asp-for="Id" />
+                                            <div class="form-group mb-2">
+                                                <label asp-for="NomeAmbiente" class="control-label"></label>
+                                                <input asp-for="NomeAmbiente" class="form-control" />
+                                                <span asp-validation-for="NomeAmbiente" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label asp-for="Descricao" class="control-label"></label>
+                                                <input asp-for="Descricao" class="form-control" />
+                                                <span asp-validation-for="Descricao" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label asp-for="Capacidade" class="control-label"></label>
+                                                <input asp-for="Capacidade" class="form-control" />
+                                                <span asp-validation-for="Capacidade" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <label asp-for="Disponibilidade" class="control-label"></label>
+                                                <input asp-for="Disponibilidade" class="form-control" />
+                                                <span asp-validation-for="Disponibilidade" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group mb-2">
+                                                <a asp-action="Index" class="btn btn-outline-light btn-lg px-3 mb-2"> <i class="bi bi-skip-backward"></i>&nbsp;Voltar</a>
+                                                <input type="submit" value="Salvar" class=" btn btn-outline-light btn-lg mb-2 px-4" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
