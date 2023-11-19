@@ -120,7 +120,7 @@ namespace EasyBooking.Controllers
 
         }
 
-        public async Task<IActionResult> Relatorio(int id)
+        public async Task<IActionResult> Relatorio(int? id)
         {
             if (id == null)
                 return NotFound();
