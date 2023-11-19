@@ -25,13 +25,16 @@
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O aplicação ja está acessível através do seguinte link: https://easybooking20231119205452.azurewebsites.net/
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Para ter acesso a todas as funcionalidades, é necessário logar com a conta de administrador:
+- Id: 1
+- Senha: 123456
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+  
+Usuário teste:
+- Id: 2
+- Senha: 123456
 
 # Documentação
 
