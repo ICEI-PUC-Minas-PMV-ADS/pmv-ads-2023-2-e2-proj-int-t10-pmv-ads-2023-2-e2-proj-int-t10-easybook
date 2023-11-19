@@ -12,61 +12,55 @@ Caso de teste: Verificar se o usuário consegue realizar login de forma eficient
 - Entrada: Entrar na página de login; 
 - Saída esperada: O login foi realizado com sucesso, e o usuário é redirecionado para sua área de perfil ou uma página de destino apropriada.
 
-  
-![Caso Teste 01](/docs/img/)
-<center> Figura 1 - CT-01</center>  
+<video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/assets/79698768/11c7ad8c-f790-4759-9311-70aa92700238" title="CT-01">| 
+<center> Video 1 - CT-01</center>  
 
 
-### CT-02 - CT-02 – Cadastro de Perfil.
+### CT-02 - Cadastro de Perfil.
 Caso de teste: Verificar se o usuário consegue se cadastrar na aplicação de forma intuitiva e sem problemas significativos.
 - Entrada: Entrar na página de cadastro, preencher os campos; 
 - Saída esperada: O cadastro foi realizado com sucesso, e o usuário é redirecionado para a próxima etapa ou para sua área de perfil.
-
   
-![Caso Teste 02](/docs/img/)
-<center> Figura 2 - CT-02</center>  
+<video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/assets/79698768/ad4e8940-d018-4dc5-a940-9897df6711ae" title="CT-02">| 
+<center> Video 2 - CT-02</center>  
 
 
 
-### CT-03 - CT-03 – Visualização do Sistema de Reserva.
+### CT-03 - Visualização do Sistema de Reserva.
 Caso de teste: Verificar se os usuários conseguem acessar e visualizar o sistema de reserva de forma eficiente e intuitiva.
 - Entrada: Fazer login, entrar na página de reserva; 
 - Saída esperada: Os usuários conseguem acessar e visualizar o sistema de reserva de forma eficiente, as informações sobre disponibilidade são precisas, e o processo de reserva é intuitivo.
 
-  
-![Caso Teste 03](/docs/img/)
-<center> Figura 3 - CT-03</center>
+<video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/assets/79698768/172ead32-5e65-4c36-90f5-c96b4eedf797" title="CT-03">| 
+<center> Video 3 - CT-03</center>
 
 
-### CT-04 - CT-04 – Reserva de Ambientes de Testes.
+### CT-04 - Reserva de Ambientes de Testes.
 Caso de teste: Verificar se os usuários podem efetuar reservas de ambientes de testes de forma eficiente e sem problemas significativos.
 - Entrada: Fazer login, entrar na página de reserva e fazer a reserva; 
 - Saída esperada: Os usuários conseguem efetuar reservas de ambientes de testes de forma eficiente, e o sistema fornece confirmação da reserva.
 
   
-![Caso Teste 04](/docs/img/)
-<center> Figura 4 - CT-04</center>
+<video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/assets/79698768/9885ec42-06d2-4a69-a329-ff6adcd7be92" title="CT-04">| 
+<center> Video 4 - CT-04</center>
 
 
 
-### CT-05 - CT-05 – Gerenciamento de Reservas por Administradores.
+### CT-05 - Gerenciamento de Reservas por Administradores.
 Caso de teste: Verificar se os administradores conseguem gerenciar as reservas de forma eficiente e eficaz.
 - Entrada: Fazer login como admin, entrar na página de reserva, navegue até a seção de gerenciamento de reservas ; 
 - Saída esperada: Os administradores conseguem gerenciar as reservas de forma eficiente, e as ações de gerenciamento são refletidas corretamente no sistema.
 
   
-![Caso Teste 05](/docs/img/)
-<center> Figura 5 - CT-05</center>
+<video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/assets/79698768/5117547c-9671-4a26-8af1-46cd27410edf" title="CT-05">| 
+<center> Video 5 - CT-05</center>
 
 
-### CT-06 - CT-06 – Notificações por E-mail de Reservas.
-Caso de teste: Verificar se o sistema envia notificações por e-mail aos usuários quando realizam uma reserva e se essas notificações são entregues corretamente.
-- Entrada: Fazer login, realize uma reserva em nome do usuário, preenchendo os campos necessários e aguarde a notificação por e-mail; 
-- Saída esperada: O sistema envia notificações por e-mail aos usuários após uma reserva, e as notificações contêm informações relevantes e são entregues corretamente.
 
-  
-![Caso Teste 06](/docs/img/)
-<center> Figura 6 - CT-06</center>
+
+
+
+
 
 ## Avaliação
 
