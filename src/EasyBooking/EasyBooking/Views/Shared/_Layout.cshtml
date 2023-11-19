@@ -66,38 +66,21 @@
                             </li>
                         } 
                         
-                        @if (User.IsInRole("Admin"))
+                     @*    @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-white" style="font-weight: bold;" asp-area="" asp-controller="AmbienteDevs" asp-action="Relatorio">Relatório</a>
+                                <a class="nav-link text-white" style="font-weight: bold;" asp-area="" asp-controller="" asp-action="Index">Relatório</a>
                             </li>
-                        }                  
+                        } *@                  
                         
  
                     </ul>
 
-                 @*    <ul class="navbar-nav ">
-                        @if (!User.Identity.IsAuthenticated)
-                        {
-                            <li class="text-left">
-                                <a class="btn btn-outline-light my-2 my-sm-0" asp-area=""  asp-controller="Account" asp-action="Create">
-                                <i class="bi bi-person-plus"></i> Cadastre-se
-                                </a>
-                           </li>
-                        }
-                        
-                    </ul> *@
+           
 
 
                     <ul class="navbar-nav">
-                        <li class="text-left">
-                            <a class="btn btn-outline-light my-2 my-sm-0" asp-area="" asp-controller="Account" asp-action="Create">
-                                <i class="bi bi-person-plus"></i> Cadastre-se
-                            </a>
-                        </li>
-
-                        <span style="padding: 5px"></span>
-
+  
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item text-white">
