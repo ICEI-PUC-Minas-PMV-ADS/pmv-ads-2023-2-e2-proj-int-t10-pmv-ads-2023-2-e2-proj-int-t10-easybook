@@ -25,8 +25,7 @@
 
 ## Instruções de utilização
 
-O aplicação ja está acessível através do seguinte link: https://easybooking20231119205452.azurewebsites.net/
-
+O aplicação ja está acessível através do seguinte link: https://easybookingwebapp.azurewebsites.net/
 Para ter acesso a todas as funcionalidades, é necessário logar com a conta de administrador:
 - Id: 1
 - Senha: 123456
