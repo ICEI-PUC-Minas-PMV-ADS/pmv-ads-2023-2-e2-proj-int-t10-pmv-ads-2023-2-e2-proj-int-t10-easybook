@@ -64,7 +64,105 @@ Caso de teste: Verificar se os administradores conseguem gerenciar as reservas d
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+### Relatório de Avaliação de Registros de Testes de Software
+
+Projeto: EasyBooking
+
+Equipe de Testes: Renata G. Barbosa
+
+## 1. Introdução
+
+Este relatório apresenta uma análise detalhada dos resultados dos testes de software realizados no projeto. A avaliação se concentra nos casos de teste específicos definidos para garantir o correto funcionamento de funcionalidades cruciais do sistema.
+
+## 2. Resultados dos Testes
+
+##### CT-01 - Login de Usuários:
+
+###### Pontos Fortes:
+
+- Eficiência no processo de login.
+- Redirecionamento para a área de perfil ou página de destino bem-sucedido.
+  
+###### Pontos Fracos:
+
+- Não foram identificados pontos fracos que mereçam destaque.
+
+###### Abordagem para Melhorias:
+
+- Monitoramento contínuo do desempenho do login.
+- Implementação de verificações adicionais de segurança, se necessário.
+- Exploração de melhorias na experiência do usuário durante o redirecionamento.
+  
+##### CT-02 - Cadastro de Perfil:
+
+###### Pontos Fortes:
+
+- Cadastro realizado com sucesso e de forma intuitiva.
+- Redirecionamento pós-cadastro ocorreu conforme esperado.
+  
+###### Pontos Fracos:
+
+- A mensagem indicando o sucesso do cadastro não é exibida.
+
+###### Abordagem para Melhorias:
+
+- Monitoramento contínuo do processo de cadastro para garantir consistência.
+- Implementação de feedbacks visuais adicionais durante o cadastro.
+  
+##### CT-03 - Visualização do Sistema de Reserva:
+
+###### Pontos Fortes:
+
+- Eficiência na visualização do sistema de reserva.
+- Informações sobre disponibilidade.
+  
+###### Pontos Fracos:
+
+- Design de interface mais simplificado e elegante.
+  
+###### Abordagem para Melhorias:
+
+- Consideração de melhorias na interface de reserva.
+
+##### CT-04 - Reserva de Ambientes de Testes:
+
+###### Pontos Fortes:
+
+- Eficiência na realização de reservas.
+- Confirmação da reserva fornecida conforme esperado.
+  
+###### Pontos Fracos:
+
+- Ausência de mensagem que indique a confirmação da reserva.
+
+###### Abordagem para Melhorias:
+
+- Monitoramento contínuo da confiabilidade do sistema de confirmação de reserva.
+- Exibir uma mensagem indicando se a reserva foi concluída ou não.
+
+##### CT-05 - Gerenciamento de Reservas por Administradores:
+
+###### Pontos Fortes:
+
+- Eficiência no gerenciamento de reservas pelos administradores.
+- Ações de gerenciamento refletidas corretamente no sistema.
+
+###### Pontos Fracos:
+
+- Não foram identificados pontos fracos que mereçam destaque.
+###### Abordagem para Melhorias:
+
+- Continuação do monitoramento da eficácia do sistema de gerenciamento.
+- Implementação de verificações adicionais para garantir consistência nas ações administrativas.
+  
+## 3. Falhas Detectadas e Melhorias Geradas
+
+Nenhuma falha significativa foi detectada durante os testes.
+As melhorias propostas visam principalmente o monitoramento contínuo e algumas otimizações de usabilidade.
+
+## 4. Conclusão
+
+Com base nos resultados dos testes, o sistema demonstrou robustez e confiabilidade. As melhorias propostas são medidas preventivas para garantir a manutenção da eficiência e consistência nas próximas iterações do projeto. 
+
+
