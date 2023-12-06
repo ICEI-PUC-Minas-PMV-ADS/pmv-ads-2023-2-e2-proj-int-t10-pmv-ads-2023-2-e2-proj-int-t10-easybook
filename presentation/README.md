@@ -8,4 +8,8 @@
 
 
 ## Apresentação de Slides
-[Slides do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/files/13589603/Networking.Newsletter.by.Slidesgo.pdf)
+
+
+[Slides em pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/files/13589603/Networking.Newsletter.by.Slidesgo.pdf)
+
+[Slides.pptx](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook/files/13589629/Networking.Newsletter.by.Slidesgo.pptx)
