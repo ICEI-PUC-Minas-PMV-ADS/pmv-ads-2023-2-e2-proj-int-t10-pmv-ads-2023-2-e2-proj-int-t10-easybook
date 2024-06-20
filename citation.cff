@@ -1,0 +1,30 @@
+message: Please cite this software using these metadata.
+title: Sistema de Reserva e Gestão de Ambientes de Desenvolvimento e Teste para Startups Tecnológicas.
+authors:
+  - family-names: Gonzaga Barbosa
+    given-names: Renata
+  - family-names: 
+    given-names:  
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Carvalho Monteiro Ferreira
+    given-names: Daniela
+keywords:
+  - Sistemas
+  - Reserva
+  - Startups
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t10-pmv-ads-2023-2-e2-proj-int-t10-easybook.git
+version: 1.0.0
+date-released: 2023-12-06
